@@ -1,0 +1,253 @@
+<div data-section-id="{{ section.id }}" data-section-type="section-banner-v3" style="{% if section.settings.margin_top != blank %}margin-top: {{section.settings.margin_top}}px;{%endif%} {% if section.settings.margin_bottom != blank %}margin-bottom: {{section.settings.margin_bottom}}px;{% endif %}">
+  <div class="section-banner-v3">
+    <div class="container container-v2">
+      <div class="text-center title_block">            
+        {% if section.settings.sub_title != blank %}
+        <p class="sub_title">{{section.settings.sub_title}}</p>
+        {% endif %}
+        {% if section.settings.section_title != blank %}
+        <h3>{{section.settings.section_title}}</h3>      
+        {% endif %}
+        {% if section.settings.desc_content != blank %}
+        <p class="desc">{{section.settings.desc_content}}</p>
+        {% endif %}
+      </div>
+      
+      <div class="row">      
+        <div class="col-lg-4 col-md-4 banner1">
+          <div class="banner-ver">
+            <div class="banner-item">
+              <div class="box-image d-block">
+                {% if section.settings.banner_img1 != blank %}
+                <img data-src="{{section.settings.banner_img1 | img_url: 'master'}}" class="lazyload img-fluid" alt="_img">
+                {% else %}
+                <img data-src="//via.placeholder.com/423x248" class="lazyload img-fluid" alt="_img">
+                {% endif %}
+              </div>
+              <div class="content">                
+                {% if section.settings.title_banner1 != blank %}
+                <h3 class="title-banner">{{section.settings.title_banner1}}</h3>
+                {% endif %}
+                {% if section.settings.sub_title1 != blank %}
+                <div class="sub-title">{{section.settings.sub_title1}}</div>
+                {% endif %}
+                {% if section.settings.button_banner1 != blank %}
+                <a href="{{section.settings.url_button_banner1}}" class="button-main1">{{section.settings.button_banner1}}</a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>    
+        <div class="col-lg-4 col-md-4 banner2">
+          <div class="banner-ver">
+            <div class="banner-item">
+              <div class="box-image d-block">
+                {% if section.settings.banner_img2 != blank %}
+                <img data-src="{{section.settings.banner_img2 | img_url: 'master'}}" class="lazyload img-fluid" alt="_img">
+                {% else %}
+                <img data-src="//via.placeholder.com/423x248" class="lazyload img-fluid" alt="_img">
+                {% endif %}
+              </div>
+              <div class="content">
+                {% if section.settings.title_banner2 != blank %}
+                <h3 class="title-banner">{{section.settings.title_banner2}}</h3>
+                {% endif %}
+                {% if section.settings.sub_title2 != blank %}
+                <div class="sub-title">{{section.settings.sub_title2}}</div>
+                {% endif %}
+                {% if section.settings.button_banner2 != blank %}
+                <a href="{{section.settings.url_button_banner2}}" class="button-main1">{{section.settings.button_banner2}}</a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>    
+        <div class="col-lg-4 col-md-4 banner3">
+          <div class="banner-ver">
+            <div class="banner-item">
+              <div class="box-image d-block">
+                {% if section.settings.banner_img3 != blank %}
+                <img data-src="{{section.settings.banner_img3 | img_url: 'master'}}" class="lazyload img-fluid" alt="_img">
+                {% else %}
+                <img data-src="//via.placeholder.com/423x248" class="lazyload img-fluid" alt="_img">
+                {% endif %}
+              </div>
+              <div class="content">
+                {% if section.settings.title_banner3 != blank %}
+                <h3 class="title-banner">{{section.settings.title_banner3}}</h3>
+                {% endif %}
+                {% if section.settings.sub_title3 != blank %}
+                <div class="sub-title">{{section.settings.sub_title3}}</div>
+                {% endif %}
+                {% if section.settings.button_banner3 != blank %}
+                <a href="{{section.settings.url_button_banner3}}" class="button-main1">{{section.settings.button_banner3}}</a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "BANNER V3",
+  "settings": [
+    
+	{
+      "type": "header",
+      "content": "Settings Section"
+    },
+	{
+      "type": "text",
+      "id": "sub_title",
+      "label": "Sub Title",
+      "default": "Our service"
+    },
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Title section",
+      "default": "Our Special Features"
+    },
+	{
+      "type": "text",
+      "id": "desc_content",
+      "label": "Description",
+      "default": "Our purpose is to build solutions that remove barriers preventing people from<br> doing their best work, and this is at the heart. "
+    },
+    {
+      "type": "header",
+      "content": "Settings Banner 1"
+    },
+	{
+      "type": "image_picker",
+      "id": "banner_img1",
+      "label": "Image",
+      "info": "423 x 248px recommended"
+    },
+	{
+      "type": "text",
+      "id": "title_banner1",
+      "label": "Title",
+      "default": "Fresh Organic Vegetable"
+    },
+    {
+      "type": "text",
+      "id": "sub_title1",
+      "label": "Sub Title",
+      "default": "Not only a great theme, but the customer <br> support is absolutely excellent."
+    },
+    {
+      "type": "text",
+      "id": "button_banner1",
+      "label": "Button Label",
+      "default": "Learn More"
+    },
+    {
+      "type": "url",
+      "id": "url_button_banner1",
+      "label": "URL Banner 1 ",
+      "default": "/collections/all"
+    },
+    {
+      "type": "header",
+      "content": "Settings Banner 2"
+    },
+	{
+      "type": "image_picker",
+      "id": "banner_img2",
+      "label": "Image",
+      "info": "423 x 248px recommended"
+    },
+	{
+      "type": "text",
+      "id": "title_banner2",
+      "label": "Title",
+      "default": "Fast & Easy Grocery Delivery"
+    },
+    {
+      "type": "text",
+      "id": "sub_title2",
+      "label": "Sub Title",
+      "default": "Support is helping to fix my issues now from <br> my previous statement."
+    },
+    {
+      "type": "text",
+      "id": "button_banner2",
+      "label": "Button Label",
+      "default": "Learn More"
+    },
+    {
+      "type": "url",
+      "id": "url_button_banner2",
+      "label": "URL Banner 2 ",
+      "default": "/collections/all"
+    },
+    {
+      "type": "header",
+      "content": "Settings Banner 3"
+    },
+	{
+      "type": "image_picker",
+      "id": "banner_img3",
+      "label": "Image",
+      "info": "423 x 248px recommended"
+    },
+	{
+      "type": "text",
+      "id": "title_banner3",
+      "label": "Title",
+      "default": "Fresh Organic Vegetable"
+    },
+    {
+      "type": "text",
+      "id": "sub_title3",
+      "label": "Sub Title",
+      "default": "Best customer services and with quality design <br> like this? You guys are the best."
+    },    
+    {
+      "type": "text",
+      "id": "button_banner3",
+      "label": "Button Label",
+      "default": "Learn More"
+    },
+    {
+      "type": "url",
+      "id": "url_button_banner3",
+      "label": "URL Banner 3 ",
+      "default": "/collections/all"
+    },
+	{
+      "type": "header",
+      "content": "Section Space"
+    },
+    {
+      "type": "text",
+      "id": "margin_top",
+      "label": "Margin Top",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    },
+    {
+      "type": "text",
+      "id": "margin_bottom",
+      "label": "Margin Bottom",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    }
+  ],
+  "presets": [
+    {
+      "name": "BANNER V3",
+      "category": "HOME"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

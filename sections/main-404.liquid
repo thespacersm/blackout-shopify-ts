@@ -1,23 +1,21 @@
-<style type="text/css">
-  .template-404 .title + * {
-    margin-top: 1rem;
-  }
-
-  @media screen and (min-width: 750px) {
-    .template-404 .title + * {
-      margin-top: 2rem;
-    }
-  }
-</style>
-
-<div class="template-404 page-width page-margin center">
-  <p>
-    {{ 'templates.404.subtext' | t }}
-  </p>
-  <h1 class="title">
-    {{ 'templates.404.title' | t }}
-  </h1>
-  <a href="{{ routes.all_products_collection_url }}" class="button">
-    {{ 'general.continue_shopping' | t }}
-  </a>
+<!-- /templates/404.liquid -->
+<div id="content" style="background-image : url({% if settings.bg_error != blank  %}{{settings.bg_error | img_url : 'master'}} {% else %}//via.placeholder.com/1900x1000 {% endif %}) ; background-repeat: no-repeat;
+    background-size: cover;">
+  <div class="content-page">
+    <div class="container">
+      <div class="content-404">
+        <h1 class="title-404">{{settings.title_page}}</h1>
+        <h2 class="page-title">{{settings.des_page}}</h2>
+        <p class="sub-title">{{settings.sub_page}}</p>
+        <p class="sub-link">{{settings.sub_title_404}} <a href="/">{{settings.sub_link}}</a></p>
+        <div class="search">
+          <form class="wg-search-form" action="/search">
+            <input type="text" placeholder="{{settings.search_placeholder}}" name="q" value="{{ search.terms | escape }}"  />
+            <button type="submit" value=""><i class="fa fa-search" aria-hidden="true"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+

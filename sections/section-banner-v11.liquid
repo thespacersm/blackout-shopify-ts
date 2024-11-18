@@ -1,0 +1,236 @@
+<div data-section-id="{{ section.id }}" data-section-type="section-banner-v11" style="{% if section.settings.margin_top != blank %}margin-top: {{section.settings.margin_top}}px;{%endif%} {% if section.settings.margin_bottom != blank %}margin-bottom: {{section.settings.margin_bottom}}px;{% endif %}">
+  <div class="section-banner-v11" {% if section.settings.bg_section != blank %}style="background:{{section.settings.bg_section}}"{% endif %}>
+    <div class="container container-v2">
+      <div class="text-center title_block">            
+        {% if section.settings.sub_title != blank %}
+        <p class="sub_title">{{section.settings.sub_title}}</p>
+        {% endif %}
+        {% if section.settings.section_title != blank %}
+        <h3>{{section.settings.section_title}}</h3>      
+        {% endif %}
+        {% if section.settings.desc_content != blank %}
+        <p class="desc">{{section.settings.desc_content}}</p>
+        {% endif %}
+      </div>
+      
+      <div class="row">
+        <div class="col-lg-4 item1">
+          <div class="banner-left">
+            <div class="item-banner">
+              <div class="content-banner">
+                <h4 class="title">{{section.settings.title_banner1}}</h4>
+                <div class="subtitle">{{section.settings.subtitle_banner1}}</div>
+              </div>
+              <div class="img-banner">
+                <img data-src="{% if section.settings.img_banner1 != blank %} {{section.settings.img_banner1 | img_url : 'master'}} {% else %} //via.placeholder.com/64x64 {% endif %}" class="lazyload img-fluid" alt="_img_banner">
+              </div>              
+            </div>
+            
+            <div class="item-banner">
+              <div class="content-banner">
+                <h4 class="title">{{section.settings.title_banner2}}</h4>
+                <div class="subtitle">{{section.settings.subtitle_banner2}}</div>
+              </div>
+              <div class="img-banner">
+                <img data-src="{% if section.settings.img_banner2 != blank %} {{section.settings.img_banner2 | img_url : 'master'}} {% else %} //via.placeholder.com/64x64 {% endif %}" class="lazyload img-fluid" alt="_img_banner">
+              </div>              
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 item2">
+          <div class="banner-center">
+			<img data-src="{% if section.settings.img_bannercenter != blank %} {{section.settings.img_bannercenter | img_url : 'master'}} {% else %} //via.placeholder.com/488x358 {% endif %}" class="lazyload img-fluid w-100" alt="_img_banner">
+          </div>
+        </div>
+        <div class="col-lg-4 item3">
+          <div class="banner-right">
+            <div class="item-banner">
+              <div class="img-banner">
+                <img data-src="{% if section.settings.img_banner3 != blank %} {{section.settings.img_banner3 | img_url : 'master'}} {% else %} //via.placeholder.com/64x64 {% endif %}" class="lazyload img-fluid" alt="_img_banner">
+              </div>
+              <div class="content-banner">
+                <h4 class="title">{{section.settings.title_banner3}}</h4>
+                <div class="subtitle">{{section.settings.subtitle_banner3}}</div>
+              </div>
+            </div>
+
+            <div class="item-banner">
+              <div class="img-banner">
+                <img data-src="{% if section.settings.img_banner4 != blank %} {{section.settings.img_banner4 | img_url : 'master'}} {% else %} //via.placeholder.com/64x64 {% endif %}" class="lazyload img-fluid" alt="_img_banner">
+              </div>
+              <div class="content-banner">
+                <h4 class="title">{{section.settings.title_banner4}}</h4>
+                <div class="subtitle">{{section.settings.subtitle_banner4}}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+</style>
+
+{% schema %}
+{
+  "name": "BANNER V11",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Setting Banner"
+    },
+	{
+      "type": "color",
+      "id": "bg_section",
+      "label": "Background Color",
+      "default": "#F9F6E9"
+    },
+    {
+      "type": "text",
+      "id": "sub_title",
+      "label": "Sub Title",
+      "default": "Our product"
+    },
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Title section",
+      "default": "Lemon Fruit"
+    },
+	{
+      "type": "text",
+      "id": "desc_content",
+      "label": "Description",
+      "default": "characteristic ingredient in many pastries and desserts, such as tarts and the <br> traditional American lemon meringue pie"
+    },    
+	 {
+      "type": "header",
+      "content": "Setting Banner Center"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_bannercenter",
+      "label": "Image",
+      "info": "488 x 358px recommended"
+    },
+    {
+      "type": "header",
+      "content": "Setting Info 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_banner1",
+      "label": "Image",
+      "info": "64 x 64px recommended"
+    },
+    {
+      "type": "text",
+      "id": "title_banner1",
+      "label": "Title banner",
+      "default": "Fresh Organic Fruits"
+    },
+    {
+      "type": "text",
+      "id": "subtitle_banner1",
+      "label": "Sub Title banner",
+      "default": "When you are looking for some delicious fruit to enjoy as a snack or as a dessert"
+    },
+    {
+      "type": "header",
+      "content": "Setting Info 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_banner2",
+      "label": "Image",
+      "info": "64 x 64px recommended"
+    },
+    {
+      "type": "text",
+      "id": "title_banner2",
+      "label": "Title banner",
+      "default": "Summer Fruits"
+    },
+    {
+      "type": "text",
+      "id": "subtitle_banner2",
+      "label": "Sub Title banner",
+      "default": "Berries are a brilliant nutrient-rich boost, they also have low GI values and so give you "
+    },
+    {
+      "type": "header",
+      "content": "Setting Info 3"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_banner3",
+      "label": "Image",
+      "info": "64 x 64px recommended"
+    },
+    {
+      "type": "text",
+      "id": "title_banner3",
+      "label": "Title banner",
+      "default": "Speciality items"
+    },
+    {
+      "type": "text",
+      "id": "subtitle_banner3",
+      "label": "Sub Title banner",
+      "default": "Here in Edinburgh, Real Foods are widely known for our seasonal rarities."
+    },
+    {
+      "type": "header",
+      "content": "Setting Info 4"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_banner4",
+      "label": "Image",
+      "info": "64 x 64px recommended"
+    },
+    {
+      "type": "text",
+      "id": "title_banner4",
+      "label": "Title banner",
+      "default": "Salads and Herbs"
+    },
+    {
+      "type": "text",
+      "id": "subtitle_banner4",
+      "label": "Sub Title banner",
+      "default": "Our fresh herbs section usually has parsley, sorrel, sage and mint "
+    },
+    {
+      "type": "header",
+      "content": "Section Space"
+    },
+    {
+      "type": "text",
+      "id": "margin_top",
+      "label": "Margin Top",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    },
+    {
+      "type": "text",
+      "id": "margin_bottom",
+      "label": "Margin Bottom",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    }
+  ],
+  "presets": [
+    {
+      "name": "BANNER V11",
+      "category": "HOME"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

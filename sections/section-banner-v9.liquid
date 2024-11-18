@@ -1,0 +1,181 @@
+<div data-section-id="{{ section.id }}" data-section-type="section-banner-v9" style="{% if section.settings.margin_top != blank %}margin-top: {{section.settings.margin_top}}px;{%endif%} {% if section.settings.margin_bottom != blank %}margin-bottom: {{section.settings.margin_bottom}}px;{% endif %}">
+  <div class="section-banner-v9" {% if section.settings.bg_section != blank %}style="background:{{section.settings.bg_section}}"{% endif %}>
+    <div class="container container-v1">
+      <div class="row align-items-center">
+        <div class="col-xl-7 col-md-6 banner-left">
+          <div class="box-image img-right">
+            {% if section.settings.img_banner1 != blank %}
+            <img data-src="{{section.settings.img_banner1 | img_url : 'master'}}" class="lazyload img-fluid" alt >
+            {% else %}
+            <img data-src="//via.placeholder.com/491x581" class="lazyload img-fluid" alt>
+            {% endif %}
+          </div>
+        </div>
+        <div class="col-xl-5 col-md-6 banner-right">
+          <div class="banner-content">
+            {% if section.settings.sub_title != blank %}
+            <div class="sub_top_12">{{section.settings.sub_title}}</div>
+            {% endif %}
+            {% if section.settings.title_heading != blank %}
+            <h3 class="title">{{section.settings.title_heading}}</h3>      	
+            {% endif %}
+
+            <div class="service-wrapper">
+              {% if section.blocks.size > 0 %}
+              {% for block in section.blocks %}
+              {% if block.type == "service" %}
+              <div class="itemtservice">
+                <div class="box-service">
+                  <div class="service-wrap">
+                    <div class="box-icon">
+                      <div class="icon">
+                        {% if block.settings.icon_svg != blank %}
+                        {{block.settings.icon_svg}}
+                        {% endif %}
+                      </div>
+                    </div>
+                    <div class="info">
+                      {% if block.settings.block_title != blank %}
+                      <h4 class="title">{{block.settings.block_title}}</h4>
+                      {% endif %}
+                      {% if block.settings.block_content != blank %}          	
+                      <p class="content">{{block.settings.block_content}}</p>
+                      {% endif %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {% endif %}
+              {% endfor %}
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "BANNER V9",
+  "settings": [
+	{
+      "type": "header",
+      "content": "Setting Banner 9"
+    },
+	{
+      "type": "color",
+      "id": "bg_section",
+      "label": "Background Color",
+      "default": "#F8F9E4"
+    },
+    {
+      "type": "text",
+      "id": "sub_title",
+      "label": "Sub Title",
+      "default": "Fresh fruit"
+    },
+    {
+      "type": "text",
+      "id": "title_heading",
+      "label": "Title section",
+      "default": "Passion fruit Origin"
+    },
+    {
+      "type": "header",
+      "content": "Setting banner"
+    },
+    {
+      "type": "image_picker",
+      "id": "img_banner1",
+      "label": "Image",
+      "info": "585 x 683px recommended"
+    },
+    {
+      "type": "header",
+      "content": "Section Space"
+    },
+    {
+      "type": "text",
+      "id": "margin_top",
+      "label": "Margin Top",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    },
+    {
+      "type": "text",
+      "id": "margin_bottom",
+      "label": "Margin Bottom",
+      "info": "Defined in pixels. Do not add the 'px' unit."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "service",
+      "name": "Service",
+      "settings": [
+		{
+          "type": "textarea",
+          "id": "icon_svg",
+          "label": "Icon Svg"
+        },
+        {
+          "type": "text",
+          "id": "block_title",
+          "label": "Title",
+          "default": "Try Feals risk-free"
+        },
+        {
+          "type": "text",
+          "id": "block_content",
+          "label": "Content",
+          "default": "Free shipping and free returns."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "BANNER V9",
+      "category": "HOME",
+	  "blocks": [
+        {
+          "type": "service",
+          "settings": {
+            "block_title": "Try Feals risk-free",
+            "block_content": "Free shipping and free returns."
+          }
+        },
+        {
+          "type": "service",
+          "settings": {
+            "block_title": "Citrus and Exotic Fruits",
+            "block_content": "For a look at the amazing fruits in the "
+          }
+        },
+        {
+          "type": "service",
+          "settings": {
+            "block_title": "Fresh Organic Fruits",
+            "block_content": "We offer all the staples like potatoes"
+          }
+        },
+		{
+          "type": "service",
+          "settings": {
+            "block_title": "Origin and Organic Certification",
+            "block_content": "The vast majority of Fruits and Vegetables"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

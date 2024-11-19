@@ -1,1 +1,228 @@
-{"sections":{"section_slideshow_v1":{"type":"section-slideshow-v1","blocks":{"6a7425c9-48c8-4652-a863-ae568487b3c9":{"type":"slideshow","settings":{"select_position_content":"left","select_textalign_content":"left","block_title_top1":"LO SHOPPING CHE FA PER TE","color_block_title_top1":"#ffffff","font_size_top1":14,"fonts_sub_1":"Lato","effect_title1":"bounce","block_title_top":"UOMO","color_block_title_top":"#ffffff","font_size_title_top":80,"fonts_title_top":"Lato","effect_title":"bounce","block_title_top2":"","color_block_title_top2":"#ffffff","font_size_top2":16,"fonts_sub_2":"","effect_title2":"bounce","block_buton":"SCOPRI I PRODOTTI","bg_button":"#30343a","color_block_button":"#ffffff","font_size_button":13,"fonts_button":"","color_hover_button":"#30343a","color_hover_text":"#ffffff","block_url":"shopify:\/\/collections\/all","effect_title3":"bounce","ena_slide_video":false,"url_ytb_video":"","block_banerimage":"shopify:\/\/shop_images\/006e907e69eb102fdd48e7fc808ead52_-_dimensioni_grandi.jpg"}}},"block_order":["6a7425c9-48c8-4652-a863-ae568487b3c9"],"settings":{"margin_top":"","margin_bottom":""}},"1651548263914ccd88":{"type":"section-banner-v1","settings":{"img_banner1":"shopify:\/\/shop_images\/Snapinsta.app_381021128_18291695650133645_3916832180771765377_n_1080_2.jpg","title_banner1":"ACCESSORI","btn_banner1":"SCOPRI I PRODOTTI","url_banner1":"shopify:\/\/collections\/all","img_banner2":"shopify:\/\/shop_images\/Snapinsta.app_314176987_829495464837734_3358441485144491829_n_1080_1.jpg","title_banner2":"SCARPE","btn_banner2":"VAI AI PRODOTTI","url_banner2":"shopify:\/\/collections\/all","margin_top":"","margin_bottom":""}},"1651548283ff8c0617":{"type":"section-product-v2","blocks":{"16515482835e9bc963-0":{"type":"tab","settings":{"tab_title":"FEATURED","tab_collection":"featured","tab_limit":8}},"16515482835e9bc963-1":{"type":"tab","settings":{"tab_title":"LATEST","tab_collection":"latest","tab_limit":8}},"16515482835e9bc963-2":{"type":"tab","settings":{"tab_title":"BESTSELLER","tab_collection":"best-seller-products","tab_limit":8}}},"block_order":["16515482835e9bc963-0","16515482835e9bc963-1","16515482835e9bc963-2"],"custom_css":["h3{text-transform: none !important;}"],"settings":{"margin_top":"","margin_bottom":"","sub_title":"","section_title":"Questo mese in vetrina"}},"165154832004f12aec":{"type":"section-banner-v5","settings":{"ena_container":true,"select_pos":"right","bg_banner":"#fdf3e6","subtitle_top":"New arrival","title_banner":"New bag collection","sub_title_banner":"We have a collection of the most luxurious <br>leather bag models to suit everyone","button_banner":"Shop Now","url_banner":"shopify:\/\/collections\/all","margin_top":"","margin_bottom":""}},"1652363329529dc021":{"type":"section-product-v1","settings":{"bg_section":"","sub_title":"","section_title":"New arrivals","desc_content":"Treat yourself to some of our best-selling superstars.","select_collection":"new-arrival","products_limit":6,"margin_top":"","margin_bottom":""}},"1651548402b12207a3":{"type":"section-testimonial-v2","blocks":{"1651548402c9f7016f-0":{"type":"testimonial","settings":{"block_title":"“Amazing piece of history”","block_content":"” Wonderful communication and your company even sent a generous <br> amount of samples to me, making my decision to spend...","block_name":"Jonh Mery"}},"1651548402c9f7016f-1":{"type":"testimonial","settings":{"block_title":"“Amazing piece of history”","block_content":"” Wonderful communication and your company even sent a generous <br> amount of samples to me, making my decision to spend...","block_name":"Annette Black"}},"1651548402c9f7016f-2":{"type":"testimonial","settings":{"block_title":"“Amazing piece of history”","block_content":"” Wonderful communication and your company even sent a generous <br> amount of samples to me, making my decision to spend...","block_name":"Jonh Mery"}}},"block_order":["1651548402c9f7016f-0","1651548402c9f7016f-1","1651548402c9f7016f-2"],"settings":{"display_bg":"bg_color","bg_color":"rgba(0,0,0,0)","section_title":"Customer Reviews","desc_content":"Apparently we had reached a great height in the atmosphere, for the sky was a dead black and there a stars.","margin_top":"","margin_bottom":""}},"16515484479af493c2":{"type":"section-blog-v1","settings":{"margin_top":"","margin_bottom":"","sub_title":"Our blog","section_title":"Latest news","desc_content":"Apparently we had reached a great height in the atmosphere, for the sky was a dead black and there a stars.","select_blog":"news","blogs_limit":8,"enable_date":true,"enable_title":true,"enable_excerpt":true}}},"order":["section_slideshow_v1","1651548263914ccd88","1651548283ff8c0617","165154832004f12aec","1652363329529dc021","1651548402b12207a3","16515484479af493c2"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_slideshow_v1": {
+      "type": "section-slideshow-v1",
+      "blocks": {
+        "6a7425c9-48c8-4652-a863-ae568487b3c9": {
+          "type": "slideshow",
+          "settings": {
+            "select_position_content": "left",
+            "select_textalign_content": "left",
+            "block_title_top1": "LO SHOPPING CHE FA PER TE",
+            "color_block_title_top1": "#ffffff",
+            "font_size_top1": 14,
+            "fonts_sub_1": "Lato",
+            "effect_title1": "bounce",
+            "block_title_top": "UOMO",
+            "color_block_title_top": "#ffffff",
+            "font_size_title_top": 80,
+            "fonts_title_top": "Lato",
+            "effect_title": "bounce",
+            "block_title_top2": "",
+            "color_block_title_top2": "#ffffff",
+            "font_size_top2": 16,
+            "fonts_sub_2": "",
+            "effect_title2": "bounce",
+            "block_buton": "SCOPRI I PRODOTTI",
+            "bg_button": "#30343a",
+            "color_block_button": "#ffffff",
+            "font_size_button": 13,
+            "fonts_button": "",
+            "color_hover_button": "#30343a",
+            "color_hover_text": "#ffffff",
+            "block_url": "shopify://collections/all",
+            "effect_title3": "bounce",
+            "ena_slide_video": false,
+            "url_ytb_video": "",
+            "block_banerimage": "shopify://shop_images/006e907e69eb102fdd48e7fc808ead52_-_dimensioni_grandi.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "6a7425c9-48c8-4652-a863-ae568487b3c9"
+      ],
+      "settings": {
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    },
+    "1651548263914ccd88": {
+      "type": "section-banner-v1",
+      "settings": {
+        "img_banner1": "shopify://shop_images/Snapinsta.app_381021128_18291695650133645_3916832180771765377_n_1080_2.jpg",
+        "title_banner1": "ACCESSORI",
+        "btn_banner1": "SCOPRI I PRODOTTI",
+        "url_banner1": "shopify://collections/all",
+        "img_banner2": "shopify://shop_images/Snapinsta.app_314176987_829495464837734_3358441485144491829_n_1080_1.jpg",
+        "title_banner2": "SCARPE",
+        "btn_banner2": "VAI AI PRODOTTI",
+        "url_banner2": "shopify://collections/all",
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    },
+    "1651548283ff8c0617": {
+      "type": "section-product-v2",
+      "blocks": {
+        "16515482835e9bc963-0": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "FEATURED",
+            "tab_collection": "featured",
+            "tab_limit": 8
+          }
+        },
+        "16515482835e9bc963-1": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "LATEST",
+            "tab_collection": "latest",
+            "tab_limit": 8
+          }
+        },
+        "16515482835e9bc963-2": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "BESTSELLER",
+            "tab_collection": "best-seller-products",
+            "tab_limit": 8
+          }
+        }
+      },
+      "block_order": [
+        "16515482835e9bc963-0",
+        "16515482835e9bc963-1",
+        "16515482835e9bc963-2"
+      ],
+      "custom_css": [
+        "h3 {text-transform: none !important;}"
+      ],
+      "settings": {
+        "margin_top": "",
+        "margin_bottom": "",
+        "sub_title": "",
+        "section_title": "Questo mese in vetrina"
+      }
+    },
+    "165154832004f12aec": {
+      "type": "section-banner-v5",
+      "settings": {
+        "ena_container": true,
+        "select_pos": "right",
+        "bg_banner": "#fdf3e6",
+        "subtitle_top": "New arrival",
+        "title_banner": "New bag collection",
+        "sub_title_banner": "We have a collection of the most luxurious <br>leather bag models to suit everyone",
+        "button_banner": "Shop Now",
+        "url_banner": "shopify://collections/all",
+        "img_banner_right": "shopify://shop_images/montone.jpg",
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    },
+    "1652363329529dc021": {
+      "type": "section-product-v1",
+      "settings": {
+        "bg_section": "",
+        "sub_title": "",
+        "section_title": "Nuovi arrivi",
+        "desc_content": "Treat yourself to some of our best-selling superstars.",
+        "select_collection": "new-arrival",
+        "products_limit": 6,
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    },
+    "1651548402b12207a3": {
+      "type": "section-testimonial-v2",
+      "blocks": {
+        "1651548402c9f7016f-0": {
+          "type": "testimonial",
+          "settings": {
+            "block_title": "“Amazing piece of history”",
+            "block_content": "” Wonderful communication and your company even sent a generous <br> amount of samples to me, making my decision to spend...",
+            "block_name": "Jonh Mery"
+          }
+        },
+        "1651548402c9f7016f-1": {
+          "type": "testimonial",
+          "settings": {
+            "block_title": "“Amazing piece of history”",
+            "block_content": "” Wonderful communication and your company even sent a generous <br> amount of samples to me, making my decision to spend...",
+            "block_name": "Annette Black"
+          }
+        },
+        "1651548402c9f7016f-2": {
+          "type": "testimonial",
+          "settings": {
+            "block_title": "“Amazing piece of history”",
+            "block_content": "” Wonderful communication and your company even sent a generous <br> amount of samples to me, making my decision to spend...",
+            "block_name": "Jonh Mery"
+          }
+        }
+      },
+      "block_order": [
+        "1651548402c9f7016f-0",
+        "1651548402c9f7016f-1",
+        "1651548402c9f7016f-2"
+      ],
+      "settings": {
+        "display_bg": "bg_color",
+        "bg_color": "rgba(0,0,0,0)",
+        "section_title": "Dicono di noi",
+        "desc_content": "Apparently we had reached a great height in the atmosphere, for the sky was a dead black and there a stars.",
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    },
+    "section_banner_v5_MHLgRk": {
+      "type": "section-banner-v5",
+      "settings": {
+        "ena_container": false,
+        "select_pos": "left",
+        "bg_banner": "#fdf3e6",
+        "subtitle_top": "NEWSLETTER",
+        "title_banner": "SUBITO per te UNO SCONTO del 10%",
+        "sub_title_banner": "Iscriviti alla NEWSLETTER di BLACKOUT per ricevere SUBITO  un COUPON del 10% di sconto e restare aggiornato su novità, promozioni, offerte speciali ed eventi.",
+        "button_banner": "",
+        "url_banner": "",
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    },
+    "16515484479af493c2": {
+      "type": "section-blog-v1",
+      "settings": {
+        "margin_top": "",
+        "margin_bottom": "",
+        "sub_title": "Il BLOG",
+        "section_title": "Le novità #BLACKOUT",
+        "desc_content": "Apparently we had reached a great height in the atmosphere, for the sky was a dead black and there a stars.",
+        "select_blog": "news",
+        "blogs_limit": 8,
+        "enable_date": true,
+        "enable_title": true,
+        "enable_excerpt": true
+      }
+    }
+  },
+  "order": [
+    "section_slideshow_v1",
+    "1651548263914ccd88",
+    "1651548283ff8c0617",
+    "165154832004f12aec",
+    "1652363329529dc021",
+    "1651548402b12207a3",
+    "section_banner_v5_MHLgRk",
+    "16515484479af493c2"
+  ]
+}

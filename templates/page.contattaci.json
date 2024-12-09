@@ -12,9 +12,73 @@
     "main": {
       "type": "main-page",
       "settings": {}
+    },
+    "section_service_v1_qV3Pnb": {
+      "type": "section-service-v1",
+      "blocks": {
+        "service_bx4D9t": {
+          "type": "service",
+          "settings": {
+            "icon_svg": "",
+            "block_title": "Fast Delivery",
+            "block_content": "Special financing and earn rewwards."
+          }
+        },
+        "service_KCfMtN": {
+          "type": "service",
+          "settings": {
+            "icon_svg": "",
+            "block_title": "Order Tracking",
+            "block_content": "Using order number or tracking number."
+          }
+        },
+        "service_giiUbN": {
+          "type": "service",
+          "settings": {
+            "icon_svg": "",
+            "block_title": "Secure Payment",
+            "block_content": "Secure and manage your payments."
+          }
+        }
+      },
+      "block_order": [
+        "service_bx4D9t",
+        "service_KCfMtN",
+        "service_giiUbN"
+      ],
+      "settings": {
+        "margin_top": "",
+        "margin_bottom": "",
+        "bg_section": "#ECF4E7"
+      }
+    },
+    "contact_template_nGTNMN": {
+      "type": "contact-template",
+      "settings": {
+        "enable_map": false,
+        "select_style_map": "style_map",
+        "link_map": "",
+        "title_get_left": "CONTACT INFORMATION",
+        "des_get_left": "",
+        "url_mail": "",
+        "title_follow": "Follow Us",
+        "url_twitter": "",
+        "url_face": "",
+        "url_insta": "",
+        "url_youtube": "",
+        "enable_follow": true,
+        "enable_s_contactform": true,
+        "contactform_title": "Contact Form",
+        "contactform_name": "Name",
+        "contactform_email": "Email address",
+        "contactform_content": "Your Message",
+        "contactform_btn": "Submit"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "section_service_v1_qV3Pnb",
+    "contact_template_nGTNMN"
   ]
 }

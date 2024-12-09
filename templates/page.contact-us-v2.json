@@ -64,7 +64,7 @@
         "select_style_map": "style_image",
         "link_map": "https://www.google.com/maps/@-37.6480895,144.939916,17z?hl=vi-VN",
         "enable_get_find": true,
-        "title_get_right": "Send us an message",
+        "title_get_right": "Mandaci un messaggio",
         "description_get_right": "",
         "enable_email": true,
         "placeholder_input_name": "Nome...",

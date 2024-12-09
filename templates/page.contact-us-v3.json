@@ -73,9 +73,9 @@
     "newsletter_contact_v3": {
       "type": "newsletter_contact_v3",
       "settings": {
-        "title_newletter": "SIGN UP <br>FOR NEWSLETTER",
+        "title_newletter": "ISCRIVITI ALLA <br>NOSTRA  NEWSLETTER",
         "color_title": "",
-        "content_newletter": "Subscribe to the weekly newsletter for all the latest updates",
+        "content_newletter": "Iscriviti per ricevere notizie sulle nostre promozioni.",
         "color_content": "",
         "margin_top": "",
         "margin_bottom": ""

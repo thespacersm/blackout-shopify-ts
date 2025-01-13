@@ -282,7 +282,8 @@
         "logo_XfFcWc"
       ],
       "custom_css": [
-        ".logo_wrap{border:none;}"
+        ".logo_wrap {border: none;}",
+        ".logo_wrap .image-block{border:none;}"
       ],
       "settings": {}
     }

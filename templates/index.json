@@ -259,6 +259,9 @@
     },
     "section_newsletter_v1_MqDPcm": {
       "type": "section-newsletter-v1",
+      "custom_css": [
+        ".section-newsletter-v1 .newletter_email form .btn:hover{color: black; background-color: white;}"
+      ],
       "settings": {
         "bg_color": "#fdf5e8",
         "title_newletter": "Subito per te uno sconto del 10%",

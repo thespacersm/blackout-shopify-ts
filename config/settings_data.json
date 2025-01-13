@@ -469,7 +469,7 @@
     "destab_title": "Descrizione",
     "enable_addition_tab": true,
     "addtab_title": "Informazioni Aggiuntive",
-    "addtab_content": "",
+    "addtab_content": "Questo è il contenuto di revisione",
     "enable_review_tab": true,
     "reviewtab_title": "Revisione",
     "enable_related_product": true,

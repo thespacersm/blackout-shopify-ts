@@ -260,7 +260,8 @@
     "section_newsletter_v1_MqDPcm": {
       "type": "section-newsletter-v1",
       "custom_css": [
-        ".section-newsletter-v1 .newletter_email form .btn:hover {color: white; background-color: black;}"
+        ".section-newsletter-v1 .newletter_email form .btn:hover {color: white; background-color: black;}",
+        ".section-newsletter-v1 .newletter_email form .btn{margin-left: 15px;}"
       ],
       "settings": {
         "bg_color": "#fdf5e8",

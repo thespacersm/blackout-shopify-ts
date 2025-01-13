@@ -93,7 +93,7 @@
           "type": "tab",
           "settings": {
             "tab_title": "I PIÙ VENDUTI",
-            "tab_collection": "best-seller-products",
+            "tab_collection": "scelti-per-voi",
             "tab_limit": 8
           }
         }

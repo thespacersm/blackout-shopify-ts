@@ -197,36 +197,6 @@
         "margin_bottom": ""
       }
     },
-    "section_banner_v5_MHLgRk": {
-      "type": "section-banner-v5",
-      "settings": {
-        "ena_container": false,
-        "select_pos": "left",
-        "bg_banner": "#fdf3e6",
-        "subtitle_top": "NEWSLETTER",
-        "title_banner": "SUBITO per te UNO SCONTO del 10%",
-        "sub_title_banner": "Iscriviti alla NEWSLETTER di BLACKOUT per ricevere SUBITO  un COUPON del 10% di sconto e restare aggiornato su novità, promozioni, offerte speciali ed eventi.",
-        "button_banner": "",
-        "url_banner": "",
-        "margin_top": "",
-        "margin_bottom": ""
-      }
-    },
-    "16515484479af493c2": {
-      "type": "section-blog-v1",
-      "settings": {
-        "margin_top": "",
-        "margin_bottom": "",
-        "sub_title": "Il BLOG",
-        "section_title": "Le novità #BLACKOUT",
-        "desc_content": "Apparently we had reached a great height in the atmosphere, for the sky was a dead black and there a stars.",
-        "select_blog": "news",
-        "blogs_limit": 8,
-        "enable_date": true,
-        "enable_title": true,
-        "enable_excerpt": true
-      }
-    },
     "logos_list_kBcUXh": {
       "type": "logos-list",
       "blocks": {
@@ -283,9 +253,49 @@
       ],
       "custom_css": [
         ".logo_wrap {border: none;}",
-        ".logo_wrap .image-block{border:none;}"
+        ".logo_wrap .image-block {border: none;}"
       ],
       "settings": {}
+    },
+    "section_newsletter_v1_MqDPcm": {
+      "type": "section-newsletter-v1",
+      "settings": {
+        "bg_color": "#fdf5e8",
+        "title_newletter": "Subito per te uno sconto del 10%",
+        "content_newletter": "Iscriviti alla NEWSLETTER di BLACKOUT per ricevere SUBITO un COUPON del 10% di sconto e restare aggiornato su novità, promozioni, offerte speciali ed eventi.",
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    },
+    "section_banner_v5_MHLgRk": {
+      "type": "section-banner-v5",
+      "settings": {
+        "ena_container": false,
+        "select_pos": "left",
+        "bg_banner": "#fdf3e6",
+        "subtitle_top": "NEWSLETTER",
+        "title_banner": "SUBITO per te UNO SCONTO del 10%",
+        "sub_title_banner": "Iscriviti alla NEWSLETTER di BLACKOUT per ricevere SUBITO  un COUPON del 10% di sconto e restare aggiornato su novità, promozioni, offerte speciali ed eventi.",
+        "button_banner": "",
+        "url_banner": "",
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    },
+    "16515484479af493c2": {
+      "type": "section-blog-v1",
+      "settings": {
+        "margin_top": "",
+        "margin_bottom": "",
+        "sub_title": "Il BLOG",
+        "section_title": "Le novità #BLACKOUT",
+        "desc_content": "Apparently we had reached a great height in the atmosphere, for the sky was a dead black and there a stars.",
+        "select_blog": "news",
+        "blogs_limit": 8,
+        "enable_date": true,
+        "enable_title": true,
+        "enable_excerpt": true
+      }
     }
   },
   "order": [
@@ -296,8 +306,9 @@
     "1652363329529dc021",
     "1651548402b12207a3",
     "section_product_v1_DjVNWd",
+    "logos_list_kBcUXh",
+    "section_newsletter_v1_MqDPcm",
     "section_banner_v5_MHLgRk",
-    "16515484479af493c2",
-    "logos_list_kBcUXh"
+    "16515484479af493c2"
   ]
 }

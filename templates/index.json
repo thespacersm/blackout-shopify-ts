@@ -281,6 +281,9 @@
         "logo_aARby6",
         "logo_XfFcWc"
       ],
+      "custom_css": [
+        ".logo_wrap{border:none;}"
+      ],
       "settings": {}
     }
   },

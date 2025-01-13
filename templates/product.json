@@ -53,7 +53,7 @@
       ],
       "custom_css": [
         ".featured-icon .sp-iconfeatured {border: none;}",
-        "button.shopify-payment-button__button.shopify-payment-button__button--unbranded {width: 100%;}"
+        "button{font-size: 13px; line-height: 13px; text-transform: uppercase; font-weight: 600; letter-spacing: 0.1em; padding: 16px 32px;}"
       ],
       "settings": {
         "spd_style": "pd_sticky",

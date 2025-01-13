@@ -226,6 +226,63 @@
         "enable_title": true,
         "enable_excerpt": true
       }
+    },
+    "logos_list_kBcUXh": {
+      "type": "logos-list",
+      "blocks": {
+        "logo_8HfHKi": {
+          "type": "logo",
+          "settings": {
+            "url_image": ""
+          }
+        },
+        "logo_aUetMY": {
+          "type": "logo",
+          "settings": {
+            "url_image": ""
+          }
+        },
+        "logo_bUUFVc": {
+          "type": "logo",
+          "settings": {
+            "url_image": ""
+          }
+        },
+        "logo_JJVJRa": {
+          "type": "logo",
+          "settings": {
+            "url_image": ""
+          }
+        },
+        "logo_HgqWdC": {
+          "type": "logo",
+          "settings": {
+            "url_image": ""
+          }
+        },
+        "logo_QCW77F": {
+          "type": "logo",
+          "settings": {
+            "url_image": ""
+          }
+        },
+        "logo_jrLbpK": {
+          "type": "logo",
+          "settings": {
+            "url_image": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_8HfHKi",
+        "logo_aUetMY",
+        "logo_bUUFVc",
+        "logo_JJVJRa",
+        "logo_HgqWdC",
+        "logo_QCW77F",
+        "logo_jrLbpK"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -237,6 +294,7 @@
     "1651548402b12207a3",
     "section_product_v1_DjVNWd",
     "section_banner_v5_MHLgRk",
-    "16515484479af493c2"
+    "16515484479af493c2",
+    "logos_list_kBcUXh"
   ]
 }

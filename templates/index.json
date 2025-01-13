@@ -119,10 +119,10 @@
         "ena_container": true,
         "select_pos": "right",
         "bg_banner": "#fdf3e6",
-        "subtitle_top": "New arrival",
-        "title_banner": "New bag collection",
-        "sub_title_banner": "We have a collection of the most luxurious <br>leather bag models to suit everyone",
-        "button_banner": "Shop Now",
+        "subtitle_top": "NUOVE COLLEZIONI",
+        "title_banner": "Autunno Inverno",
+        "sub_title_banner": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate arcu vitae",
+        "button_banner": "SCOPRI I PRODOTTI",
         "url_banner": "shopify://collections/all",
         "img_banner_right": "shopify://shop_images/montone.jpg",
         "margin_top": "",
@@ -135,9 +135,22 @@
         "bg_section": "",
         "sub_title": "",
         "section_title": "Nuovi arrivi",
-        "desc_content": "Treat yourself to some of our best-selling superstars.",
+        "desc_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "select_collection": "new-arrival",
         "products_limit": 6,
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    },
+    "section_product_v1_DjVNWd": {
+      "type": "section-product-v1",
+      "settings": {
+        "bg_section": "",
+        "sub_title": "",
+        "section_title": "Le nostre occasioni",
+        "desc_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "select_collection": "new-arrival",
+        "products_limit": 3,
         "margin_top": "",
         "margin_bottom": ""
       }
@@ -221,6 +234,7 @@
     "1651548283ff8c0617",
     "165154832004f12aec",
     "1652363329529dc021",
+    "section_product_v1_DjVNWd",
     "1651548402b12207a3",
     "section_banner_v5_MHLgRk",
     "16515484479af493c2"

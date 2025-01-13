@@ -77,7 +77,7 @@
           "type": "tab",
           "settings": {
             "tab_title": "SCELTI PER VOI",
-            "tab_collection": "featured",
+            "tab_collection": "scelti-per-voi",
             "tab_limit": 8
           }
         },
@@ -93,7 +93,7 @@
           "type": "tab",
           "settings": {
             "tab_title": "I PIÙ VENDUTI",
-            "tab_collection": "scelti-per-voi",
+            "tab_collection": "",
             "tab_limit": 8
           }
         }

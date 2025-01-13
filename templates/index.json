@@ -233,42 +233,42 @@
         "logo_8HfHKi": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/d73e68b49aecd8f24f2a831ed1cabe56.png",
             "url_image": ""
           }
         },
         "logo_aUetMY": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/0f0284cb84ed6e45e0424e8d0b448f6a.png",
             "url_image": ""
           }
         },
         "logo_bUUFVc": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/0f973299e83132970d36252d02ca829d.png",
             "url_image": ""
           }
         },
         "logo_JJVJRa": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/16afb3f46b4656240b24feba527e8ee9.jpg",
             "url_image": ""
           }
         },
-        "logo_HgqWdC": {
+        "logo_aARby6": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/0174d16c67fd7d794a0d30d1165d7477.jpg",
             "url_image": ""
           }
         },
-        "logo_QCW77F": {
+        "logo_XfFcWc": {
           "type": "logo",
           "settings": {
-            "url_image": ""
-          }
-        },
-        "logo_jrLbpK": {
-          "type": "logo",
-          "settings": {
+            "image": "shopify://shop_images/0bd611f189f475ad0c1230df56359c5d.jpg",
             "url_image": ""
           }
         }
@@ -278,9 +278,8 @@
         "logo_aUetMY",
         "logo_bUUFVc",
         "logo_JJVJRa",
-        "logo_HgqWdC",
-        "logo_QCW77F",
-        "logo_jrLbpK"
+        "logo_aARby6",
+        "logo_XfFcWc"
       ],
       "settings": {}
     }

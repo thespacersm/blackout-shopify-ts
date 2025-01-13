@@ -76,7 +76,7 @@
         "16515482835e9bc963-0": {
           "type": "tab",
           "settings": {
-            "tab_title": "FEATURED",
+            "tab_title": "SCELTI PER VOI",
             "tab_collection": "featured",
             "tab_limit": 8
           }
@@ -84,7 +84,7 @@
         "16515482835e9bc963-1": {
           "type": "tab",
           "settings": {
-            "tab_title": "LATEST",
+            "tab_title": "NUOVI ARRIVI",
             "tab_collection": "latest",
             "tab_limit": 8
           }
@@ -92,7 +92,7 @@
         "16515482835e9bc963-2": {
           "type": "tab",
           "settings": {
-            "tab_title": "BESTSELLER",
+            "tab_title": "I PIÙ VENDUTI",
             "tab_collection": "best-seller-products",
             "tab_limit": 8
           }

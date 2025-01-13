@@ -260,12 +260,11 @@
     "section_newsletter_v1_MqDPcm": {
       "type": "section-newsletter-v1",
       "custom_css": [
-        ".section-newsletter-v1 .newletter_email form .btn:hover {color: white; background-color: black;}",
-        ".section-newsletter-v1 .newletter_email form .btn{margin-left: 15px;}"
+        ".section-newsletter-v1 .newletter_email form .btn:hover {color: white; background-color: black;}"
       ],
       "settings": {
         "bg_color": "#fdf5e8",
-        "title_newletter": "Subito per te uno sconto del 10%",
+        "title_newletter": "Subito per te  <span style=\"color: #CEA384\"> uno sconto del 10%</span>",
         "content_newletter": "Iscriviti alla NEWSLETTER di BLACKOUT per ricevere SUBITO un COUPON del 10% di sconto e restare aggiornato su novità, promozioni, offerte speciali ed eventi.",
         "margin_top": "",
         "margin_bottom": ""

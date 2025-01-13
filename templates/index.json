@@ -85,7 +85,7 @@
           "type": "tab",
           "settings": {
             "tab_title": "NUOVI ARRIVI",
-            "tab_collection": "latest",
+            "tab_collection": "nuovi-arrivi",
             "tab_limit": 8
           }
         },
@@ -93,7 +93,7 @@
           "type": "tab",
           "settings": {
             "tab_title": "I PIÙ VENDUTI",
-            "tab_collection": "",
+            "tab_collection": "i-piu-venduti",
             "tab_limit": 8
           }
         }
@@ -142,19 +142,6 @@
         "margin_bottom": ""
       }
     },
-    "section_product_v1_DjVNWd": {
-      "type": "section-product-v1",
-      "settings": {
-        "bg_section": "",
-        "sub_title": "",
-        "section_title": "Le nostre occasioni",
-        "desc_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "select_collection": "new-arrival",
-        "products_limit": 3,
-        "margin_top": "",
-        "margin_bottom": ""
-      }
-    },
     "1651548402b12207a3": {
       "type": "section-testimonial-v2",
       "blocks": {
@@ -197,6 +184,19 @@
         "margin_bottom": ""
       }
     },
+    "section_product_v1_DjVNWd": {
+      "type": "section-product-v1",
+      "settings": {
+        "bg_section": "",
+        "sub_title": "",
+        "section_title": "Le nostre occasioni",
+        "desc_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "select_collection": "new-arrival",
+        "products_limit": 3,
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    },
     "section_banner_v5_MHLgRk": {
       "type": "section-banner-v5",
       "settings": {
@@ -234,8 +234,8 @@
     "1651548283ff8c0617",
     "165154832004f12aec",
     "1652363329529dc021",
-    "section_product_v1_DjVNWd",
     "1651548402b12207a3",
+    "section_product_v1_DjVNWd",
     "section_banner_v5_MHLgRk",
     "16515484479af493c2"
   ]

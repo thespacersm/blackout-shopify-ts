@@ -283,8 +283,8 @@
         "logo_XfFcWc"
       ],
       "custom_css": [
-        ".logo_wrap {border: none; width:100%;}",
-        ".logo_wrap .image-block {border: none;}"
+        ".logo_wrap {border: none; width: 100%;}",
+        ".logo_wrap .image-block {border: none; width: 100%;}"
       ],
       "settings": {}
     },

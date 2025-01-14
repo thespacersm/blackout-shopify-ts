@@ -16,7 +16,7 @@
         "ena_bg_img": true,
         "bg_breadcrumb": "shopify://shop_images/black-and-blue-clothing-on-a-rack-in-a-sunlit-shop.jpg",
         "bg_color_breadcrumb": "#030303",
-        "color_breadcrumb": "#ffffff",
+        "color_breadcrumb": "#484545",
         "collection_layout": "sidebar",
         "prod_per_page": 12,
         "prod_layout": "prod_grid",

@@ -11,6 +11,9 @@
   "sections": {
     "collection_template": {
       "type": "collection-template",
+      "custom_css": [
+        "figure.absolute.uppercase.label-sale.text-center {top: 15px; left: 15px;}"
+      ],
       "settings": {
         "select_style_bread": "style_6",
         "ena_bg_img": true,

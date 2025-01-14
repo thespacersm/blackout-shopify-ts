@@ -30,7 +30,7 @@
         "mini_title": "",
         "btn_title": "",
         "bannerfull_url": "https://www.shopify.com/free-trial?ref=shopifycenter",
-        "color_title": "#ffffff",
+        "color_title": "#fafafa",
         "ena_best_seller": false,
         "title_heading": "BEST SELLERS{{ section.settings.select_collection.title }}",
         "select_collection": "frontpage",

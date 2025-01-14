@@ -54,7 +54,7 @@
       "custom_css": [
         ".featured-icon .sp-iconfeatured {border: none;}",
         "button {font-size: 13px; line-height: 13px; text-transform: uppercase; font-weight: 600; letter-spacing: 0.1em; padding: 16px 32px;}",
-        ".product-item-v9 .img-product .label-sale {top: 20px; left: 35px;}"
+        ".product-item-v9 .img-product .label-sale {top: 20px; left: 15px;}"
       ],
       "settings": {
         "spd_style": "pd_sticky",

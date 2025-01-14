@@ -210,6 +210,9 @@
     },
     "section_product_v1_DjVNWd": {
       "type": "section-product-v1",
+      "custom_css": [
+        "figure.absolute.uppercase.label-sale.text-center{top:15px; left: 15px;}"
+      ],
       "settings": {
         "bg_section": "",
         "sub_title": "",

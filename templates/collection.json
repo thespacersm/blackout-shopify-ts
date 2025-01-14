@@ -15,7 +15,7 @@
         "figure.absolute.uppercase.label-sale.text-center {top: 15px; left: 15px;}"
       ],
       "settings": {
-        "select_style_bread": "style_6",
+        "select_style_bread": "style_2",
         "ena_bg_img": true,
         "bg_breadcrumb": "shopify://shop_images/black-and-blue-clothing-on-a-rack-in-a-sunlit-shop.jpg",
         "bg_color_breadcrumb": "#030303",

@@ -122,7 +122,7 @@
         "bg_banner": "#fdf3e6",
         "subtitle_top": "NUOVE COLLEZIONI",
         "title_banner": "Autunno Inverno",
-        "sub_title_banner": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate arcu vitae",
+        "sub_title_banner": "Capi caldi, tessuti avvolgenti e tendenze di stagione. Preparati ad affrontare il freddo con stile!",
         "button_banner": "SCOPRI I PRODOTTI",
         "url_banner": "shopify://collections/all",
         "img_banner_right": "shopify://shop_images/montone.jpg",
@@ -139,7 +139,7 @@
         "bg_section": "",
         "sub_title": "",
         "section_title": "Nuovi arrivi",
-        "desc_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "desc_content": "Appena arrivati, già irresistibili! Non lasciarti sfuggire i capi più trendy.",
         "select_collection": "nuovi-arrivi",
         "products_limit": 6,
         "margin_top": "",
@@ -221,7 +221,7 @@
         "bg_section": "",
         "sub_title": "",
         "section_title": "Le nostre occasioni",
-        "desc_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "desc_content": "Pezzi limitati, prezzi speciali! Rinnova il tuo guardaroba con le nostre migliori occasioni.",
         "select_collection": "le-nostre-occasioni",
         "products_limit": 11,
         "margin_top": "",
@@ -301,21 +301,6 @@
         "margin_top": "",
         "margin_bottom": ""
       }
-    },
-    "16515484479af493c2": {
-      "type": "section-blog-v1",
-      "settings": {
-        "margin_top": "",
-        "margin_bottom": "",
-        "sub_title": "Il BLOG",
-        "section_title": "Le novità #BLACKOUT",
-        "desc_content": "Apparently we had reached a great height in the atmosphere, for the sky was a dead black and there a stars.",
-        "select_blog": "news",
-        "blogs_limit": 8,
-        "enable_date": true,
-        "enable_title": true,
-        "enable_excerpt": true
-      }
     }
   },
   "order": [
@@ -327,7 +312,6 @@
     "1651548402b12207a3",
     "section_product_v1_DjVNWd",
     "logos_list_kBcUXh",
-    "section_newsletter_v1_MqDPcm",
-    "16515484479af493c2"
+    "section_newsletter_v1_MqDPcm"
   ]
 }

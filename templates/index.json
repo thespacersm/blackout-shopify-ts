@@ -104,7 +104,8 @@
         "16515482835e9bc963-2"
       ],
       "custom_css": [
-        "h3 {text-transform: none !important;}"
+        "h3 {text-transform: none !important;}",
+        "figure.absolute.uppercase.label-sale.text-center {top: 15px; left: 15px;}"
       ],
       "settings": {
         "margin_top": "",
@@ -131,6 +132,9 @@
     },
     "1652363329529dc021": {
       "type": "section-product-v1",
+      "custom_css": [
+        "figure.absolute.uppercase.label-sale.text-center {top: 15px; left: 15px;}"
+      ],
       "settings": {
         "bg_section": "",
         "sub_title": "",
@@ -211,7 +215,7 @@
     "section_product_v1_DjVNWd": {
       "type": "section-product-v1",
       "custom_css": [
-        "figure.absolute.uppercase.label-sale.text-center{top:15px; left: 15px;}"
+        "figure.absolute.uppercase.label-sale.text-center {top: 15px; left: 15px;}"
       ],
       "settings": {
         "bg_section": "",

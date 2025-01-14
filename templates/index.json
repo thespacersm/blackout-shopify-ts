@@ -292,7 +292,8 @@
       "type": "section-newsletter-v1",
       "custom_css": [
         ".section-newsletter-v1 .newletter_email form .btn:hover {color: white; background-color: black;}",
-        ".newsletter-wrap {border: none;}"
+        ".newsletter-wrap {border: none;}",
+        ".container.container-v1 {background: #fdf5e8;}"
       ],
       "settings": {
         "bg_color": "#fdf5e8",

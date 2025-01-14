@@ -184,9 +184,10 @@
         "testimonial_9DtGaL": {
           "type": "testimonial",
           "settings": {
-            "block_title": "“Amazing piece of history”",
-            "block_content": "\"",
-            "block_name": "Jonh Mery"
+            "block_title": "\"Personale gentilissimo...\"",
+            "block_content": "\"Bellissimi capi d'abbigliamento, prezzi giusti. Personale gentilissimo.\"",
+            "block_img": "shopify://shop_images/unnamed_4.png",
+            "block_name": "Damiano Vannucci"
           }
         }
       },

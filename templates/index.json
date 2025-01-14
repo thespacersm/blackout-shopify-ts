@@ -148,24 +148,44 @@
         "1651548402c9f7016f-0": {
           "type": "testimonial",
           "settings": {
-            "block_title": "“Amazing piece of history”",
-            "block_content": "” Wonderful communication and your company even sent a generous <br> amount of samples to me, making my decision to spend...",
-            "block_name": "Jonh Mery"
+            "block_title": "\"Più che un negozio di abbigliamento...\"",
+            "block_content": "\"Più che un negozio d’abbigliamento è una vera e propria boutique. Chiara e Ambra ti guidano nell’esperienza con la competenza acquisita dalla continua ricerca di capi sempre stimolanti. Brave, ci vediamo presto (;\"",
+            "block_img": "shopify://shop_images/unnamed.png",
+            "block_name": "Elisa Fabbri"
           }
         },
         "1651548402c9f7016f-1": {
           "type": "testimonial",
           "settings": {
-            "block_title": "“Amazing piece of history”",
-            "block_content": "” Wonderful communication and your company even sent a generous <br> amount of samples to me, making my decision to spend...",
-            "block_name": "Annette Black"
+            "block_title": "\"Consigliatissimo!!\"",
+            "block_content": "\"Chiara ed Ambra due ragazze splendide unite da una sola passione, la moda!! Sono sempre sul pezzo, sempre aggiornate e pronte ad aiutarti se sei indeciso su un capo... Consigliatissimo!!\"",
+            "block_img": "shopify://shop_images/unnamed_1.png",
+            "block_name": "Michael D'Elia"
+          }
+        },
+        "testimonial_cGfze7": {
+          "type": "testimonial",
+          "settings": {
+            "block_title": "\"In negozio trovi di tutto...\"",
+            "block_content": "\"Da Chiara e Ambra sei sempre alla moda!!! Gentilissime e disponibilissime!!! In negozio trovi di tutto (vestiti accessori e scarpe)e anche sul sito è facile acquistare e la consegna è veloce. Super!!!!\"",
+            "block_img": "shopify://shop_images/unnamed_2.png",
+            "block_name": "Nicoletta Migani"
           }
         },
         "1651548402c9f7016f-2": {
           "type": "testimonial",
           "settings": {
+            "block_title": "\"Ottimo negozio...\"",
+            "block_content": "\"Ottimo negozio, vestiti stupendi e personale carinissimo!!!\"",
+            "block_img": "shopify://shop_images/unnamed_3.png",
+            "block_name": "Linda Fattori"
+          }
+        },
+        "testimonial_9DtGaL": {
+          "type": "testimonial",
+          "settings": {
             "block_title": "“Amazing piece of history”",
-            "block_content": "” Wonderful communication and your company even sent a generous <br> amount of samples to me, making my decision to spend...",
+            "block_content": "\"",
             "block_name": "Jonh Mery"
           }
         }
@@ -173,7 +193,9 @@
       "block_order": [
         "1651548402c9f7016f-0",
         "1651548402c9f7016f-1",
-        "1651548402c9f7016f-2"
+        "testimonial_cGfze7",
+        "1651548402c9f7016f-2",
+        "testimonial_9DtGaL"
       ],
       "settings": {
         "display_bg": "bg_color",
@@ -261,27 +283,12 @@
       "type": "section-newsletter-v1",
       "custom_css": [
         ".section-newsletter-v1 .newletter_email form .btn:hover {color: white; background-color: black;}",
-        ".newsletter-wrap{border:none;}"
+        ".newsletter-wrap {border: none;}"
       ],
       "settings": {
         "bg_color": "#fdf5e8",
         "title_newletter": "Subito per te   uno sconto del 10%",
         "content_newletter": "Iscriviti alla NEWSLETTER di BLACKOUT per ricevere SUBITO un COUPON del 10% di sconto e restare aggiornato su novità, promozioni, offerte speciali ed eventi.",
-        "margin_top": "",
-        "margin_bottom": ""
-      }
-    },
-    "section_banner_v5_MHLgRk": {
-      "type": "section-banner-v5",
-      "settings": {
-        "ena_container": false,
-        "select_pos": "left",
-        "bg_banner": "#fdf3e6",
-        "subtitle_top": "NEWSLETTER",
-        "title_banner": "SUBITO per te UNO SCONTO del 10%",
-        "sub_title_banner": "Iscriviti alla NEWSLETTER di BLACKOUT per ricevere SUBITO  un COUPON del 10% di sconto e restare aggiornato su novità, promozioni, offerte speciali ed eventi.",
-        "button_banner": "",
-        "url_banner": "",
         "margin_top": "",
         "margin_bottom": ""
       }
@@ -312,7 +319,6 @@
     "section_product_v1_DjVNWd",
     "logos_list_kBcUXh",
     "section_newsletter_v1_MqDPcm",
-    "section_banner_v5_MHLgRk",
     "16515484479af493c2"
   ]
 }

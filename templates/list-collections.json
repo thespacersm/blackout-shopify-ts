@@ -11,6 +11,10 @@
   "sections": {
     "main": {
       "type": "list-collection",
+      "custom_css": [
+        ".list-category .info_col .title_collection {color: white; font-weight:bold;}",
+        ".list-category .info_col .total_item{color:white; font-weight:bold;}"
+      ],
       "settings": {
         "ena_bg_img": false,
         "bg_color_breadcrumb": "#ffffff",

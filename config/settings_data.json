@@ -595,7 +595,7 @@
     "gmap_latitude": "33.3209127",
     "gmap_longitude": "-111.8005377",
     "show_menu_toolbar": true,
-    "enable_rtl_mode": true,
+    "enable_rtl_mode": false,
     "checkout_header_image": "",
     "checkout_logo_image": "",
     "checkout_logo_position": "left",
@@ -3959,7 +3959,7 @@
       "header": {
         "type": "header",
         "custom_css": [
-          "#header .menu ul .nav-item.dropdown .nav-link:after{margin-right: 10px;}"
+          "#header .menu ul .nav-item.dropdown .nav-link:after {margin-right: 10px;}"
         ],
         "settings": {
           "select_hds": "header_v2",

@@ -13,7 +13,8 @@
     "currency_format": "money_format",
     "supported_currencies": "INR GBP CAD USD AUD EUR JPY BND",
     "default_currency": "USD",
-    "title-change-language": "Language :",
+    "title-change-language": "Lingua",
+    "default-change-language": "IT:",
     "hd_multi_lang_menu": "multi-language",
     "bg_color_body": "#ffffff",
     "bg_image_body": "",
@@ -56,6 +57,7 @@
     "color_main2": "#cea384",
     "font_type": "google_fonts",
     "fonts_name_1": "Open Sans",
+    "icon_sc_tb1_2": "fa fa-youtube-play",
     "text_phone_v3": "Call 24/7 : <strong>(+01) 234-567-89</strong>",
     "enable_advertising_v6": true,
     "enable_sticky_mobile": true,
@@ -3957,7 +3959,7 @@
       "header": {
         "type": "header",
         "custom_css": [
-          "#header .menu ul .nav-item.dropdown .nav-link:after{margin-right: 10px;}"
+          "#header .menu ul .nav-item.dropdown .nav-link:after {margin-right: 10px;}"
         ],
         "settings": {
           "select_hds": "header_v1",

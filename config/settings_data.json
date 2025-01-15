@@ -3956,6 +3956,9 @@
       },
       "header": {
         "type": "header",
+        "custom_css": [
+          "#header .menu ul .nav-item.dropdown .nav-link:after{margin-right: 10px;}"
+        ],
         "settings": {
           "select_hds": "header_v1",
           "hd_home_color_text": "#30343a",

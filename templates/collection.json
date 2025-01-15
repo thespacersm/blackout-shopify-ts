@@ -13,11 +13,11 @@
       "type": "collection-template",
       "custom_css": [
         "figure.absolute.uppercase.label-sale.text-center {top: 15px; left: 15px;}",
-        ".breadcrumb_collection .bg-breadcrumb {padding: 60px 0;}"
+        ".breadcrumb_collection .bg-breadcrumb {padding: 80px 0px 0px;}"
       ],
       "settings": {
         "select_style_bread": "style_2",
-        "ena_bg_img": true,
+        "ena_bg_img": false,
         "bg_color_breadcrumb": "#ffffff",
         "color_breadcrumb": "#353232",
         "collection_layout": "full_width",

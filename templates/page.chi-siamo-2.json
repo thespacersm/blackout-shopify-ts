@@ -31,7 +31,7 @@
         "634ee0dd-4f24-4f30-8319-66af45451a47"
       ],
       "custom_css": [
-        "{margin-top: 80px;}"
+        "{margin-top: 60px;}"
       ],
       "settings": {
         "enable_intro": true
@@ -151,21 +151,6 @@
         "margin_top": "",
         "margin_bottom": ""
       }
-    },
-    "section_newsletter_v1_qng4nw": {
-      "type": "section-newsletter-v1",
-      "custom_css": [
-        ".section-newsletter-v1 .newletter_email form .btn:hover {color: white; background-color: black;}",
-        ".newsletter-wrap {border: none;}",
-        ".container.container-v1 {background: #fdf5e8;}"
-      ],
-      "settings": {
-        "bg_color": "#fdf5e8",
-        "title_newletter": "Subito per te uno sconto del 10%",
-        "content_newletter": "Iscriviti alla NEWSLETTER di BLACKOUT per ricevere SUBITO un COUPON del 10% di sconto e restare aggiornato su novità, promozioni, offerte speciali ed eventi.",
-        "margin_top": "",
-        "margin_bottom": ""
-      }
     }
   },
   "order": [
@@ -174,7 +159,6 @@
     "our_teams_v3",
     "rich_text_v3",
     "about_servicebox_v3",
-    "newsletter_about_v3",
-    "section_newsletter_v1_qng4nw"
+    "newsletter_about_v3"
   ]
 }

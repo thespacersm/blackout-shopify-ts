@@ -12,7 +12,8 @@
     "collection_template": {
       "type": "collection-template",
       "custom_css": [
-        "figure.absolute.uppercase.label-sale.text-center {top: 15px; left: 15px;}"
+        "figure.absolute.uppercase.label-sale.text-center {top: 15px; left: 15px;}",
+        ".breadcrumb_collection .bg-breadcrumb {padding: 100px 0;}"
       ],
       "settings": {
         "select_style_bread": "style_2",

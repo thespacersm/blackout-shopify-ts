@@ -3958,9 +3958,11 @@
       },
       "header": {
         "type": "header",
-        "custom_css": [],
+        "custom_css": [
+          "#header .menu ul .nav-item.dropdown .nav-link:after{margin-right: 10px;}"
+        ],
         "settings": {
-          "select_hds": "header_v1",
+          "select_hds": "header_v2",
           "hd_home_color_text": "#30343a",
           "hd_home_enable_transparents": false,
           "hd_home_bg_header_normal": "#ffffff",

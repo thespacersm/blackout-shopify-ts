@@ -14,7 +14,8 @@
       "custom_css": [
         ".list-category .info_col .title_collection {color: white; font-weight: bold;}",
         ".list-category .info_col .total_item {color: white; font-weight: bold;}",
-        ".breadcrumb_collection .bg-breadcrumb{padding:}"
+        ".breadcrumb_collection .bg-breadcrumb {padding: ;}",
+        ".text-center.bg-breadcrumb{padding: 70px 0;}"
       ],
       "settings": {
         "ena_bg_img": false,

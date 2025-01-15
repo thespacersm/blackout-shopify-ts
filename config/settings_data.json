@@ -13,8 +13,8 @@
     "currency_format": "money_format",
     "supported_currencies": "INR GBP CAD USD AUD EUR JPY BND",
     "default_currency": "USD",
-    "title-change-language": "Lingua",
-    "default-change-language": "IT:",
+    "title-change-language": "Language :",
+    "default-change-language": "EN",
     "hd_multi_lang_menu": "multi-language",
     "bg_color_body": "#ffffff",
     "bg_image_body": "",
@@ -3958,11 +3958,9 @@
       },
       "header": {
         "type": "header",
-        "custom_css": [
-          "#header .menu ul .nav-item.dropdown .nav-link:after {margin-right: 10px;}"
-        ],
+        "custom_css": [],
         "settings": {
-          "select_hds": "header_v5",
+          "select_hds": "header_v1",
           "hd_home_color_text": "#30343a",
           "hd_home_enable_transparents": false,
           "hd_home_bg_header_normal": "#ffffff",

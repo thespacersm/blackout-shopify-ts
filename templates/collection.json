@@ -20,7 +20,7 @@
         "ena_bg_img": true,
         "bg_color_breadcrumb": "#ffffff",
         "color_breadcrumb": "#353232",
-        "collection_layout": "sidebar",
+        "collection_layout": "full_width",
         "prod_per_page": 12,
         "prod_layout": "prod_grid",
         "prod_per_row": "prod_col_4",
@@ -38,8 +38,8 @@
         "title_heading": "BEST SELLERS{{ section.settings.select_collection.title }}",
         "select_collection": "frontpage",
         "products_limit": 4,
-        "ena_filter": false,
-        "ena_filter2": true
+        "ena_filter": true,
+        "ena_filter2": false
       }
     }
   },

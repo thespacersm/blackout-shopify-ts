@@ -13,7 +13,7 @@
       "type": "collection-template",
       "custom_css": [
         "figure.absolute.uppercase.label-sale.text-center {top: 15px; left: 15px;}",
-        ".breadcrumb_collection .bg-breadcrumb {padding: 80px 0px 0px;}"
+        ".breadcrumb_collection .bg-breadcrumb {padding: 80px 0px 10px;}"
       ],
       "settings": {
         "select_style_bread": "style_2",

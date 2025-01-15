@@ -14,9 +14,9 @@
       "custom_css": [
         "figure.absolute.uppercase.label-sale.text-center {top: 15px; left: 15px;}",
         ".breadcrumb_collection .bg-breadcrumb {padding: 80px 0px 10px;}",
-        ".bg-breadcrumb {text-transform: uppercase; }",
-        "h2 {text-transform: uppercase; font-size: 50px;}",
-        ".bread-crumb {margin-top: 40px; }"
+        ".bg-breadcrumb {text-transform: uppercase;}",
+        "h2 {text-transform: uppercase;}",
+        ".bread-crumb {margin-top: 40px;}"
       ],
       "settings": {
         "select_style_bread": "style_2",

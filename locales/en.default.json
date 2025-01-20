@@ -33,7 +33,7 @@
     },
     "404": {
       "title": "Error Page",
-      "content_one": "Bene! Qualcosa è andato storto",
+      "content_one": "Qualcosa è andato storto!",
       "content_two": "Se vuoi tornare indietro alla home",
       "subtext_html": "oppure torna<a href=\"/collections/all\"> qui</a> per continuare con il tuo shopping."
     },

@@ -259,7 +259,7 @@
     },
     "login": {
       "title": "Login",
-      "email": "Indirizzo email",
+      "email": "Email",
       "password": "Password",
       "description": "Se hai già un account, accedi con la tua mail.",
       "forgot_password": "Hai dimenticato la password?",

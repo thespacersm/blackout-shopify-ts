@@ -202,11 +202,11 @@
     }
   },
   "popup": {
-    "continue": "",
-    "cart": "",
-    "wishlist": "",
-    "goto_cart": "",
-    "goto_wishlist": ""
+    "continue": "Continua con lo shopping",
+    "cart": "Aggiunto al carrello con successo!",
+    "wishlist": "Aggiunto alla wishlist con successo!",
+    "goto_cart": "Vai al carrello",
+    "goto_wishlist": "Vai alla Wishlist"
   },
   "contact": {
     "form": {

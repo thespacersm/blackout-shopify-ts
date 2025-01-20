@@ -210,13 +210,13 @@
   },
   "contact": {
     "form": {
-      "fname": "",
-      "lname": "",
-      "email": "",
-      "subject": "",
-      "message": "",
-      "send": "",
-      "post_success": ""
+      "fname": "Nome",
+      "lname": "Cognome",
+      "email": "Email",
+      "subject": "Possiamo aiutarti?",
+      "message": "Possiamo aiutarti?",
+      "send": "Invia",
+      "post_success": "Grazie per averci contattato. Ti risponderemo appena possibile!"
     }
   },
   "customer": {

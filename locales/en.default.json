@@ -443,20 +443,20 @@
   },
   "wishlist": {
     "labels": {
-      "product": "Product name",
-      "price": "Price",
-      "stock_status": "Status",
+      "product": "Nome del prodotto",
+      "price": "Prezzo",
+      "stock_status": "Stato stock",
       "detail": "Action"
     },
     "general": {
-      "share_wishlist": "Share wishlist",
-      "view_wishlist": "view wishlist",
-      "added": "Go to Wishlist",
-      "continue": "Continue Shopping",
-      "title": "My Wishlist",
-      "subtext": "Please login: ",
+      "share_wishlist": "Condividi wishlist",
+      "view_wishlist": "Visualizza wishlist",
+      "added": "Vai alla Wishlist",
+      "continue": "Continua con lo Shopping",
+      "title": "La mia Wishlist",
+      "subtext": "Accedi!",
       "sign_in": "Login",
-      "or": "Register now?"
+      "or": "Non hai ancora un account? Registrati ora!"
     }
   },
   "product_detail": {

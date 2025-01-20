@@ -165,7 +165,7 @@
       "list_view": "Vedi come lista",
       "all_filter": "Tutti i filtri",
       "items_with_count": {
-        "one": "{{ count }} prodotti",
+        "one": "{{ count }} prodotto",
         "other": "{{ count }} prodotti"
       }
     },

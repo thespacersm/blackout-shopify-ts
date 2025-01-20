@@ -210,13 +210,13 @@
   },
   "contact": {
     "form": {
-      "fname": "First Name",
-      "lname": "Last Name",
+      "fname": "Nome",
+      "lname": "Cognome",
       "email": "Email",
-      "subject": "We can help you?",
-      "message": "Additional Detail",
-      "send": "get it touch",
-      "post_success": "Thanks for contacting us. We'll get back to you as soon as possible."
+      "subject": "Possiamo aiutarti?",
+      "message": "Dettagli aggiuntivi",
+      "send": "Invia",
+      "post_success": "Grazie per averci contattato. Ti risponderemo appena possibile!"
     }
   },
   "customer": {

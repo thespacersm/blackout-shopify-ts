@@ -161,23 +161,23 @@
       "all_of_collection": "Tutte {{ collection }}",
       "no_matches": "Mi dispiace, non ci sono prodotti in questa collezione.",
       "link_title": "Guarda la nostra collezione di {{ title }} ",
-      "grid_view": "",
-      "list_view": "",
-      "all_filter": "",
+      "grid_view": "Vedi come griglia",
+      "list_view": "Vedi come lista",
+      "all_filter": "Tutti i filtri",
       "items_with_count": {
-        "one": "",
-        "other": ""
+        "one": "{{ count }} prodotto",
+        "other": "{{ count }} prodotti"
       }
     },
     "sidebar": {
       "tags": "",
       "brands": "",
-      "category": "",
-      "clear_all": ""
+      "category": "Categorie",
+      "clear_all": "Cancella tutto"
     },
     "sorting": {
-      "title": "",
-      "featured": "",
+      "title": "Ordina:",
+      "featured": "Ordine di default:",
       "best_selling": "",
       "az": "",
       "za": "",

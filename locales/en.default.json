@@ -415,14 +415,14 @@
       "share_this": "Share this",
       "video": "play video",
       "filter": "filter",
-      "add_whlist": "Add to Whishlist",
-      "close": "close",
-      "prev": "Prev",
-      "next": "Next"
+      "add_whlist": "Aggiungi alla Whishlist",
+      "close": "Chiudi",
+      "prev": "Precedente",
+      "next": "Prossimo"
     },
     "variants": {
-      "size": "Size",
-      "color": "Color"
+      "size": "Taglia",
+      "color": "Colore"
     }
   },
   "gift_cards": {

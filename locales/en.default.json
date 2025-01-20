@@ -112,31 +112,31 @@
   },
   "cart": {
     "general": {
-      "title": "Cart",
-      "remove": "Remove",
+      "title": "Carrello",
+      "remove": "Rimuovi",
       "note": "Special instructions for seller",
       "subtotal": "sub totals",
       "shipping_at_checkout": "Shipping & taxes calculated at checkout",
       "update": "Update Cart",
-      "checkout": "Proceed to checkout",
-      "empty": "Your cart is currently empty.",
-      "continue_browsing_html": "Continue browsing <a href=\"/collections/all\">here</a>.",
-      "close_cart": "Close Cart",
-      "continue": "Continue Shopping"
+      "checkout": "Procedi con il checkout",
+      "empty": "Il tuo carrello è vuoto.",
+      "continue_browsing_html": "Continua a navigare <a href=\"/collections/all\">qui</a>.",
+      "close_cart": "Chiudi Carrello",
+      "continue": "Continua con lo Shopping"
     },
     "label": {
       "thumbnail": "Thumbnail",
-      "product": "Product name",
-      "price": "Price",
-      "quantity": "Quantity",
+      "product": "Nome del prodotto",
+      "price": "Prezzo",
+      "quantity": "Quantità",
       "del": "Del",
       "cart_note": "Cart Note",
-      "cart_total": "CART TOTALS",
-      "total": "Total",
-      "term": "Agree with term and conditional.",
-      "text_count": "There are",
+      "cart_total": "TOTALE DEL CARRELLO",
+      "total": "Totale",
+      "term": "Acconsenti ai termini e condizioni.",
+      "text_count": "Ci sono",
       "item": "items",
-      "cart": "in your cart"
+      "cart": "nel tuo carrello"
     }
   },
   "minicart": {

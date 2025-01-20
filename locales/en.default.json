@@ -529,10 +529,17 @@
       },
       "order_summary": {
         "shopping_cart_label": "Carrello",
-        "cart_does_not_meet_discount_requirements_notice": "{{code}} Questo codice sconto non è valido per gli articoli nel tuo carrello."
+        "cart_does_not_meet_discount_requirements_notice": "{{code}} Questo codice sconto non è valido per gli articoli nel tuo carrello.",
+        "more_items_modal": {
+          "search_item": "Cerca",
+          "clear_search": "Pulisci ricerca"
+        }
       },
       "shipping": {
         "no_rates_for_cart_or_destination_notice": "Non ci sono metodi di spedizione per gli articoli nel tuo carrello."
+      },
+      "pickup_point": {
+        "search_button": "Cerca"
       }
     },
     "notices": {

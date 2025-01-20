@@ -523,16 +523,27 @@
           "delivery": {
             "only_one_delivery_line_allowed": "Il carrello può avere una sola linea con le informazioni di spedizione."
           }
-        }
+        },
+        "cart": "Carrello",
+        "back_to_cart": "Torna al carrello"
       },
       "order_summary": {
-        "shopping_cart_label": "Carrello"
+        "shopping_cart_label": "Carrello",
+        "cart_does_not_meet_discount_requirements_notice": "{{code}} Questo codice sconto non è valido per gli articoli nel tuo carrello."
+      },
+      "shipping": {
+        "no_rates_for_cart_or_destination_notice": "Non ci sono metodi di spedizione per gli articoli nel tuo carrello."
       }
     },
     "notices": {
       "cart": {
-        "too_many_items_in_cart": "Non puoi più aggiungere \"{{name}}\" nel tuo carrello."
+        "too_many_items_in_cart": "Non puoi più aggiungere \"{{name}}\" nel tuo carrello.",
+        "product_not_available": "Il prodotto non è disponibile.",
+        "too_many_line_items_error": "Il tuo carrello non può contenere più di {{max}} prodotti."
       }
+    },
+    "page_titles": {
+      "shopping_cart": "Il tuo carrello"
     }
   }
 }

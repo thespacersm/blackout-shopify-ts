@@ -427,15 +427,15 @@
   },
   "gift_cards": {
     "issued": {
-      "title": "",
-      "subtext": "",
+      "title": "Ecco i tuoi {{ value }} di gift card per {{ shop }}!",
+      "subtext": "Ecco la tua gift card!",
       "disabled": "",
-      "expired": "",
-      "active": "",
-      "redeem": "",
-      "shop_link": "",
-      "print": "",
-      "add_to_apple_wallet": ""
+      "expired": "Non attiva su {{ expiry }}",
+      "active": "Attiva su {{ expiry }}",
+      "redeem": "Usa questo codice al momento dell'acquisto per poter utilizzare la tua gift card!",
+      "shop_link": "Comincia con lo shopping",
+      "print": "Stampa",
+      "add_to_apple_wallet": "Aggiungi a Apple Wallet"
     }
   },
   "date_formats": {

@@ -492,6 +492,12 @@
         "go_back_to_cart_button_label": "Torna al carrello",
         "quantity_update": {
           "description": "La disponibilità di alcuni prodotti è cambiata e il tuo carrello è stato aggiornato."
+        },
+        "unshippable_product": {
+          "message": {
+            "one": "Questo prodotto verrà rimosso dal tuo carrello perché non esistono metodi di spedizione disponibili per il tuo indirizzo.",
+            "other": "Questi prodotti verranno rimossi dal tuo carrello perché non esistono metodi di spedizione disponibili per il tuo indirizzo."
+          }
         }
       },
       "contextual_availability": {

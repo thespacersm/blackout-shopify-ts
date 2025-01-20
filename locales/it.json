@@ -335,10 +335,10 @@
     },
     "onboarding": {
       "modal_title": "Ci siamo quasi...",
-      "no_products_html": "",
+      "no_products_html": "Non hai proodotti nella collezione Frontpage. Questo placeholder comparirà finché tu<a href=\"/admin/collections?tutorial=Frontpage\"> non aggiungerai un prodotto alla tua collezione </a>.  ",
       "add_product": "Aggiungi un prodotto",
       "product_title": "Esempio Titolo del Prodotto",
-      "no_collections_html": "Non hai proodotti nella collezione Frontpage. Questo placeholder comparirà finché tu<a href=\"/admin/collections?tutorial=Frontpage\"> non aggiungerai un prodotto alla tua collezione </a>.",
+      "no_collections_html": " Non ci sono collezioni da poter mostrare qui. <a href=\"/admin/costum_collections\"> Aggiungi delle collezioni </a> che verranno visualizzate nella Frontpage di default.",
       "add_collection": "Aggiungi una collezione",
       "collection_title": "Esempio Titolo della Collezione"
     }

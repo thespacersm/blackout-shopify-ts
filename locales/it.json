@@ -112,31 +112,31 @@
   },
   "cart": {
     "general": {
-      "title": "",
-      "remove": "",
+      "title": "Carrello",
+      "remove": "Rimuovi",
       "note": "",
       "subtotal": "",
-      "shipping_at_checkout": "",
-      "update": "",
-      "checkout": "",
-      "empty": "",
-      "continue_browsing_html": "",
-      "close_cart": "",
-      "continue": ""
+      "shipping_at_checkout": "Spedizione e tasse saranno aggiunte al momento dell'acquisto.",
+      "update": "Aggiorna carrello",
+      "checkout": "Procedi con l'acquisto",
+      "empty": "Il tuo carrello è vuoto.",
+      "continue_browsing_html": "Continua a navigare <a href=\"/collections/all\">qui</a>.",
+      "close_cart": "Chiudi Carrello",
+      "continue": "Continua con lo Shopping"
     },
     "label": {
       "thumbnail": "",
-      "product": "",
-      "price": "",
-      "quantity": "",
+      "product": "Nome del prodotto",
+      "price": "Prezzo",
+      "quantity": "Quantità",
       "del": "",
       "cart_note": "",
-      "cart_total": "",
-      "total": "",
-      "term": "",
-      "text_count": "",
-      "item": "",
-      "cart": ""
+      "cart_total": "TOTALE DEL CARRELLO",
+      "total": "Totale",
+      "term": "Acconsenti ai termini e condizioni.",
+      "text_count": "Ci sono",
+      "item": "items",
+      "cart": "nel tuo carrello."
     }
   },
   "minicart": {

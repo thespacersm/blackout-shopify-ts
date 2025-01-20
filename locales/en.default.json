@@ -486,6 +486,12 @@
         "out_of_stock": {
           "description": "Alcuni prodottti non sono più disponibili e sono stati rimossi dal tuo carrello.",
           "items_unavailable": "Alcuni prodottti non sono più disponibili e sono stati rimossi dal tuo carrello."
+        },
+        "removed_from_cart_notice": "Rimuovi dal carrello",
+        "remove_from_cart_button_label": "Rimuovi dal carrello",
+        "go_back_to_cart_button_label": "Torna al carrello",
+        "quantity_update": {
+          "description": "La disponibilità di alcuni prodotti è cambiata e il tuo carrello è stato aggiornato."
         }
       },
       "contextual_availability": {
@@ -499,6 +505,13 @@
           "message": {
             "one": "Questo prodotto verrà rimosso dal tuo carrello perchè non ci sono metodi di consegna disponibili per il tuo indirizzo.",
             "other": "Questi prodotti verranno rimossi dal tuo carrello perchè non ci sono metodi di consegna disponibili per il tuo indirizzo."
+          }
+        }
+      },
+      "general": {
+        "errors": {
+          "delivery": {
+            "only_one_delivery_line_allowed": "Il carrello può avere una sola linea con le informazioni di spedizione."
           }
         }
       }

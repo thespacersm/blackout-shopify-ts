@@ -417,8 +417,8 @@
       "filter": "filter",
       "add_whlist": "Aggiungi alla Whishlist",
       "close": "Chiudi",
-      "prev": "Precedente",
-      "next": "Successivo"
+      "prev": "",
+      "next": ""
     },
     "variants": {
       "size": "Taglia",

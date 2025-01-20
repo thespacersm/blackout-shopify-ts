@@ -141,13 +141,13 @@
   },
   "minicart": {
     "general": {
-      "qty": "",
-      "total_price": "",
-      "view_cart": "",
-      "checkout": "",
-      "empty": "",
-      "title": "",
-      "shop_now": ""
+      "qty": "Quantità:",
+      "total_price": "Totale:",
+      "view_cart": "Vedi Carrello",
+      "checkout": "Procedi all'ordine",
+      "empty": "Il tuo carrello è vuoto",
+      "title": "Carrello",
+      "shop_now": "Vai al negozio online"
     }
   },
   "list_collection": {

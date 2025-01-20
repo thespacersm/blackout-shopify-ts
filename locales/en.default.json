@@ -466,5 +466,42 @@
   },
   "quickview": {
     "total": "Totale"
+  },
+  "shopify": {
+    "checkout": {
+      "stock": {
+        "empty_cart_label": "Il tuo carrello è vuoto",
+        "unpurchasable_product": {
+          "header": "Alcuni prodotti sono stati rimossi dal tuo carrello."
+        },
+        "unpurchasable_product_generic": {
+          "header": "Alcuni prodotti sono stati rimossi dal tuo carrello."
+        },
+        "price_update": {
+          "description": "Il prezzo di questo prodotto è stato cambiato e aggiornato nel tuo carrello."
+        },
+        "price_and_quantity_update": {
+          "description": "Prezzo e disponibilità di alcuni prodotti sono stati modificati e aggiornati nel tuo carrello."
+        },
+        "out_of_stock": {
+          "description": "Alcuni prodottti non sono più disponibili e sono stati rimossi dal tuo carrello.",
+          "items_unavailable": "Alcuni prodottti non sono più disponibili e sono stati rimossi dal tuo carrello."
+        }
+      },
+      "contextual_availability": {
+        "products_not_available": {
+          "one": "Questo prodotto verrà rimosso dal tuo carrello perchè non è disponibile nel tuo Paese/Regione.",
+          "other": "Questi prodotti veranno  rimossi dal tuo carrello perchè non sono più disponibili nel tuo Paese/Regione."
+        }
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "message": {
+            "one": "Questo prodotto verrà rimosso dal tuo carrello perchè non ci sono metodi di consegna disponibili per il tuo indirizzo.",
+            "other": "Questi prodotti verranno rimossi dal tuo carrello perchè non ci sono metodi di consegna disponibili per il tuo indirizzo."
+          }
+        }
+      }
+    }
   }
 }

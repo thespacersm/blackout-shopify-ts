@@ -22,7 +22,7 @@
     "select_newletter": "newsletter_v3",
     "title_popup": "Ottieni uno sconto del 20% spedito nella tua casella di posta",
     "description_popup": "Iscriviti alla nostra newsletter e spediremo oggi il codice sconto del 20%.",
-    "placeholder_popup": "Inserisci la tua Email ...",
+    "placeholder_popup": "Inserisci la tua email ...",
     "button_name_popup": "Iscriviti",
     "icon_sc_popup1": "fa fa-twitter",
     "url_sc_popup1": "",

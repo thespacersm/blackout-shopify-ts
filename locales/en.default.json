@@ -116,7 +116,7 @@
       "remove": "Rimuovi",
       "note": "Special instructions for seller",
       "subtotal": "sub totals",
-      "shipping_at_checkout": "Shipping & taxes calculated at checkout",
+      "shipping_at_checkout": "Spedizione e tasse saranno aggiunte al momento dell'acquisto.",
       "update": "Aggiorna carrello",
       "checkout": "Procedi con l'acquisto",
       "empty": "Il tuo carrello è vuoto.",
@@ -136,7 +136,7 @@
       "term": "Acconsenti ai termini e condizioni.",
       "text_count": "Ci sono",
       "item": "items",
-      "cart": "nel tuo carrello"
+      "cart": "nel tuo carrello."
     }
   },
   "minicart": {

@@ -525,7 +525,30 @@
           }
         },
         "cart": "Carrello",
-        "back_to_cart": "Torna al carrello"
+        "back_to_cart": "Torna al carrello",
+        "page_title": "Pagamento",
+        "error_page_title": "Errore",
+        "complete_purchase_button_label": "Completa l'ordine",
+        "pay_now_button_label": "Paga ora",
+        "authenticate_purchase_button_label": "Autenticazione pagamento",
+        "edit_link_label": "Modifica",
+        "close_modal_label": "Chiudi",
+        "close_notice_label": "Chiudi",
+        "continue_to_shipping_method": "Continua con la modalità di spedizione",
+        "continue_to_payment_method": "Continua con la modalità di pagamento",
+        "continue_to_review": "Rivedi l'ordine",
+        "back_to_contact_information": "Torna a informazioni di contatto",
+        "back_to_shipping_method": "Torna al metodo di spedizione",
+        "back_to_payment_method": "Torna al metodo di pagamento",
+        "choose_shipping_method": "Scegli al metodo di pagamento",
+        "choose_payment_method": "Scegli al metodo di pagamento",
+        "choose_billing_address": "Scegli al indirizzo di fatturazione",
+        "contact_us_html": "Contattaci per maggiorni informazioni",
+        "loading": "Caricamento...",
+        "confirm_order_button_label": "Conferma ordine",
+        "submit_order_button_label": "Invia ordine",
+        "submit_for_review_button_label": "Invia per rivedere l'ordine",
+        "back_button_label": "Indietro"
       },
       "order_summary": {
         "shopping_cart_label": "Carrello",
@@ -540,6 +563,9 @@
       },
       "pickup_point": {
         "search_button": "Cerca"
+      },
+      "address_management": {
+        "confirm_address_deletion": "Sicuro di voler cancellare l'indirizzo {{address}}?"
       }
     },
     "notices": {

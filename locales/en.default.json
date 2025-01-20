@@ -505,7 +505,7 @@
     },
     "notices": {
       "cart": {
-        "too_many_items_in_cart": "Non puoi più aggiungere {{name}} nel tuo carrello."
+        "too_many_items_in_cart": "Non puoi più aggiungere \"{{name}}\" nel tuo carrello."
       }
     }
   }

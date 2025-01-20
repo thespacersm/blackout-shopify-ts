@@ -348,37 +348,37 @@
       "menu": ""
     },
     "heading": {
-      "see_all": ""
+      "see_all": "Vedi tutto"
     },
     "drawers": {
       "browse": "",
-      "close_menu": "",
-      "shop_now": ""
+      "close_menu": "Chiudi menu",
+      "shop_now": "Compra Ora"
     },
     "cart": {
-      "title": "",
+      "title": "Il mio carrello",
       "items_count": {
-        "one": "",
-        "other": ""
+        "one": "Prodotto",
+        "other": "Prodotti"
       }
     },
     "customer": {
       "account": "",
-      "logged_in_as_html": "",
-      "log_out": "",
-      "log_in": "",
-      "create_account": "",
-      "login_register": "",
-      "view_cart": "",
-      "wishlist": "",
-      "favourite": "",
-      "hello": ""
+      "logged_in_as_html": "Registrata come {{ first_name }}",
+      "log_out": "Esci",
+      "log_in": "Accedi",
+      "create_account": "Registrati",
+      "login_register": "Accedi/Registrati",
+      "view_cart": "Vedi Carrello",
+      "wishlist": "Wishlist",
+      "favourite": "referiti",
+      "hello": "Ciao!"
     },
     "footer": {
       "social_title": "",
       "newsletter_title": "",
-      "newsletter_description": "",
-      "accepted_payments": ""
+      "newsletter_description": "Iscriviti per ricevere informazioni sui nuovi arrivi, le offerte e altri sconti.",
+      "accepted_payments": "Pagamenti accettati"
     }
   },
   "products": {

@@ -39,7 +39,7 @@
             "fonts_button": "",
             "color_hover_button": "#30343a",
             "color_hover_text": "#ffffff",
-            "block_url": "shopify://collections/all",
+            "block_url": "shopify://collections/uomo",
             "effect_title3": "bounce",
             "ena_slide_video": false,
             "url_ytb_video": "",
@@ -61,11 +61,11 @@
         "img_banner1": "shopify://shop_images/Snapinsta.app_381021128_18291695650133645_3916832180771765377_n_1080_2.jpg",
         "title_banner1": "ACCESSORI",
         "btn_banner1": "SCOPRI I PRODOTTI",
-        "url_banner1": "shopify://collections/all",
+        "url_banner1": "shopify://collections/accessori",
         "img_banner2": "shopify://shop_images/Snapinsta.app_314176987_829495464837734_3358441485144491829_n_1080_1.jpg",
         "title_banner2": "SCARPE",
         "btn_banner2": "VAI AI PRODOTTI",
-        "url_banner2": "shopify://collections/all",
+        "url_banner2": "shopify://collections/scarpe",
         "margin_top": "",
         "margin_bottom": ""
       }
@@ -283,8 +283,8 @@
         "logo_XfFcWc"
       ],
       "custom_css": [
-        ".logo_wrap {border: none;}",
-        ".logo_wrap .image-block {border: none;}"
+        ".logo_wrap {border: none; width: 100%;}",
+        ".logo_wrap .image-block {border: none; width: 100%;}"
       ],
       "settings": {}
     },

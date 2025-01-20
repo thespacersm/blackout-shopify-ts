@@ -504,6 +504,10 @@
         "products_not_available": {
           "one": "Questo prodotto verrà rimosso dal tuo carrello perchè non è disponibile nel tuo Paese/Regione.",
           "other": "Questi prodotti veranno  rimossi dal tuo carrello perchè non sono più disponibili nel tuo Paese/Regione."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Questo prodotto non è disponibile nel tuo Paese/Regione.",
+          "other": "Questi prodotti non sono disponibili nel tuo Paese/Regione."
         }
       },
       "deliverability": {
@@ -520,6 +524,9 @@
             "only_one_delivery_line_allowed": "Il carrello può avere una sola linea con le informazioni di spedizione."
           }
         }
+      },
+      "order_summary": {
+        "shopping_cart_label": "Carrello"
       }
     },
     "notices": {

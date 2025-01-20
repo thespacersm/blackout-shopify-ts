@@ -1,0 +1,74 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection_template": {
+      "type": "collection-template",
+      "disabled": true,
+      "custom_css": [
+        "figure.absolute.uppercase.label-sale.text-center {top: 15px; left: 15px;}",
+        ".breadcrumb_collection .bg-breadcrumb {padding: 80px 0px 10px;}",
+        ".bg-breadcrumb {text-transform: uppercase;}",
+        "h2 {text-transform: uppercase;}",
+        ".bread-crumb {margin-top: 40px;}"
+      ],
+      "settings": {
+        "select_style_bread": "style_2",
+        "ena_bg_img": false,
+        "bg_color_breadcrumb": "#ffffff",
+        "color_breadcrumb": "#353232",
+        "collection_layout": "full_width",
+        "prod_per_page": 12,
+        "prod_layout": "prod_grid",
+        "prod_per_row": "prod_col_4",
+        "filter_layout": "filter_draw",
+        "sidebar_layout": "sidebar_left",
+        "ena_sticky_sidebar": true,
+        "ena_banner_mordern": true,
+        "bannerfull_img": "{{ section.settings.select_collection.image }}",
+        "big_title": "",
+        "mini_title": "",
+        "btn_title": "",
+        "bannerfull_url": "https://www.shopify.com/free-trial?ref=shopifycenter",
+        "color_title": "#fafafa",
+        "ena_best_seller": false,
+        "title_heading": "BEST SELLERS{{ section.settings.select_collection.title }}",
+        "select_collection": "frontpage",
+        "products_limit": 4,
+        "ena_filter": true,
+        "ena_filter2": false
+      }
+    },
+    "list_collection_pRP3U9": {
+      "type": "list-collection",
+      "custom_css": [
+        "figure.absolute.uppercase.label-sale.text-center {top: 15px; left: 15px;}",
+        ".breadcrumb_collection .bg-breadcrumb {padding: 80px 0px 10px;}",
+        ".bg-breadcrumb {text-transform: uppercase;}",
+        "h2 {text-transform: uppercase;}",
+        ".bread-crumb {margin-top: 40px;}",
+        ".list-category .info_col .total_item, .title_collection {color: white; font-weight: bold;}",
+        ".text-center.bg-breadcrumb {padding: 80px 0px 10px;}",
+        ".info_col {background: linear-gradient( to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100% );}",
+        ".bread-crumb {text-transform: uppercase;}"
+      ],
+      "settings": {
+        "ena_bg_img": false,
+        "bg_color_breadcrumb": "#fff",
+        "color_breadcrumb": "#353232",
+        "select_style_bread": "style_2"
+      }
+    }
+  },
+  "order": [
+    "collection_template",
+    "list_collection_pRP3U9"
+  ]
+}

@@ -10,13 +10,13 @@
 {
   "general": {
     "meta": {
-      "tags": "Tagged \"{{ tags }}\"",
-      "page": "Page {{ page }}"
+      "tags": "Tagged \" {{tags}}\"",
+      "page": "Pagina {{page}}"
     },
     "password_page": {
       "opening_soon": "Apertura a breve",
       "sign_up": "Iscriviti",
-      "spread_the_word": "Spread the word:",
+      "spread_the_word": "Spargete la parola:",
       "login_form_heading": "Inserisci la password:",
       "login_form_password_label": "Password",
       "login_form_password_placeholder": "La tua password",
@@ -27,12 +27,12 @@
       "signup_form_email_placeholder2": "Inserisci email ",
       "signup_form_submit": "Invia",
       "signup_form_success": "Ti manderemo una mail appena prima della nostra apertura!",
-      "admin_link_html": "Are you the store owner? <a href=\"/admin\" class=\"text-link\">Log in here</a>",
+      "admin_link_html": "Sei l'owner del negozio? <a href=\"/admin\" class=\"text-link\">Accedi qui</a>",
       "password_link": "Inserisci password",
-      "powered_by_shopify_html": "This shop will be powered by ShopiLaunch, LLC"
+      "powered_by_shopify_html": "questo negozio sarà alimentato da ShopiLaunch, LLC"
     },
     "404": {
-      "title": "Error Page",
+      "title": "Pagina di errore",
       "content_one": "Qualcosa è andato storto!",
       "content_two": "Se vuoi tornare indietro alla home",
       "subtext_html": "oppure torna<a href=\"/collections/all\"> qui</a> per continuare con il tuo shopping."
@@ -66,47 +66,47 @@
   },
   "blogs": {
     "general": {
-      "title": "Blog Page",
-      "article_in_blog": "Article in blogs"
+      "title": "Pagina del Blog",
+      "article_in_blog": "Articoli del blog"
     },
     "article": {
-      "author_on_date_html": "Posted by {{ author }} on {{ date }}",
-      "older_post": "Back to post",
-      "newer_post": "Next to post",
+      "author_on_date_html": "Postato da. {{author}} il {{date}}",
+      "older_post": "Torna agli articoli",
+      "newer_post": "Prossimo articolo",
       "tags": "Tags",
-      "comment_meta_html": "{{ author }} on {{ date }}",
-      "read_more": "Read more",
-      "poster_by": "Posted by",
-      "share": "Share",
-      "in_the": "in the",
-      "on": "on",
-      "says": "says",
-      "by": "By",
-      "category": "categories",
-      "next_post": "Next Post",
-      "prev_post": "Previous Post"
+      "comment_meta_html": "{{author}} il {{date}}",
+      "read_more": "Leggi di più",
+      "poster_by": "Postato da",
+      "share": "Condividi",
+      "in_the": "Nel",
+      "on": "il",
+      "says": "Dice",
+      "by": "Da",
+      "category": "Categorie",
+      "next_post": "Prossimo post",
+      "prev_post": "Post precedente"
     },
     "comments": {
-      "title": "Leave A Comments",
-      "des": "Your email address will not be published. Required fields are marked *",
+      "title": "Lascia un commento",
+      "des": "La tua email non sarà pubblica. i campi obbligatori sono segnlai da un *",
       "name": "User name*",
       "email": "Email*",
-      "message": "Your comment*",
-      "submit": "Submit",
-      "reply": "Reply",
-      "moderated": "Please note, comments must be approved before they are published",
-      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
-      "success": "Your comment was posted successfully! Thank you!",
-      "comment": "comments",
+      "message": "Commento*",
+      "submit": "Invia",
+      "reply": "Rispondi",
+      "moderated": "I commenti devono essere approvati prima di essere pubblicati.",
+      "success_moderated": "Il tuo commento è stato pubblicato correttamente. Lo potrai visualizzare a breve.",
+      "success": "Il tuo commento è stato pubblicato con successo! Grazie!",
+      "comment": "Commenti",
       "comments_with_count": {
-        "zero": "{{ count }} comment",
-        "one": "{{ count }} comment",
-        "other": "{{ count }} comments"
+        "zero": "{{ count }} commenti",
+        "one": "{{ count }} commento",
+        "other": "{{ count }} commenti"
       }
     },
     "sidebar": {
-      "recent_articles": "Recent Articles",
-      "categories": "Categories",
+      "recent_articles": "Articoli recenti",
+      "categories": "Categorie",
       "tags": "Tags"
     }
   },
@@ -114,8 +114,8 @@
     "general": {
       "title": "Carrello",
       "remove": "Rimuovi",
-      "note": "Special instructions for seller",
-      "subtotal": "sub totals",
+      "note": "Istuzioni speciali per venditori",
+      "subtotal": "Subtotale",
       "shipping_at_checkout": "Spedizione e tasse saranno aggiunte al momento dell'acquisto.",
       "update": "Aggiorna carrello",
       "checkout": "Procedi con l'acquisto",
@@ -130,7 +130,7 @@
       "price": "Prezzo",
       "quantity": "Quantità",
       "del": "Del",
-      "cart_note": "Cart Note",
+      "cart_note": "Note Carrello",
       "cart_total": "TOTALE DEL CARRELLO",
       "total": "Totale",
       "term": "Acconsenti ai termini e condizioni.",
@@ -214,7 +214,7 @@
       "lname": "Cognome",
       "email": "Email",
       "subject": "Possiamo aiutarti?",
-      "message": "Dettagli aggiuntivi",
+      "message": "Possiamo aiutarti?",
       "send": "Invia",
       "post_success": "Grazie per averci contattato. Ti risponderemo appena possibile!"
     }
@@ -266,7 +266,7 @@
       "log_in": "Accedi",
       "cancel": "Torna al negozio",
       "guest_title": "Continua come ospite",
-      "guest_continue": "Continua",
+      "guest_continue": "Continua ",
       "back_to_login": "Torna al login",
       "or": "oppure",
       "title-2": "Non hai ancora un account?",
@@ -329,18 +329,18 @@
   },
   "homepage": {
     "sections": {
-      "frontpage_title": "Frontpage Collection",
+      "frontpage_title": "FrontPage collections",
       "featured_title": "Featured Collections",
-      "news_title": "Latest News"
+      "news_title": "Latest Newest"
     },
     "onboarding": {
-      "modal_title": "Almost there...",
-      "no_products_html": "You have no products in your Frontpage collection. This placeholder will appear until you <a href=\"/admin/collections?tutorial=Frontpage\">add a product to this collection</a>.",
-      "add_product": "Add a Product",
-      "product_title": "Example Product Title",
-      "no_collections_html": "You don't have any collections to show here. <a href=\"/admin/custom_collections\">Add some collections</a> to go along with the default Frontpage.",
-      "add_collection": "Add a Collection",
-      "collection_title": "Example Collection Title"
+      "modal_title": "Ci siamo quasi...",
+      "no_products_html": "Non hai proodotti nella collezione Frontpage. Questo placeholder comparirà finché tu<a href=\"/admin/collections?tutorial=Frontpage\"> non aggiungerai un prodotto alla tua collezione </a>.  ",
+      "add_product": "Aggiungi un prodotto",
+      "product_title": "Esempio Titolo del Prodotto",
+      "no_collections_html": " Non ci sono collezioni da poter mostrare qui. <a href=\"/admin/costum_collections\"> Aggiungi delle collezioni </a> che verranno visualizzate nella Frontpage di default.",
+      "add_collection": "Aggiungi una collezione",
+      "collection_title": "Esempio Titolo della Collezione"
     }
   },
   "layout": {
@@ -375,7 +375,7 @@
       "hello": "Ciao!"
     },
     "footer": {
-      "social_title": "Get Connected",
+      "social_title": "Seguici",
       "newsletter_title": "Newsletter",
       "newsletter_description": "Iscriviti per ricevere informazioni sui nuovi arrivi, le offerte e altri sconti.",
       "accepted_payments": "Pagamenti accettati"
@@ -411,14 +411,14 @@
       "select_option": "Seleziona opzione",
       "add_to_wishlist": "Aggiungi alla Wishlist",
       "add_to_compare": "Compare",
-      "quickview": "Quick view",
-      "share_this": "Share this",
-      "video": "play video",
-      "filter": "filter",
+      "quickview": "Quick View",
+      "share_this": "Condividi",
+      "video": "Guarda il video",
+      "filter": "Filtri",
       "add_whlist": "Aggiungi alla Whishlist",
       "close": "Chiudi",
-      "prev": "",
-      "next": ""
+      "prev": "Prec",
+      "next": "Succ"
     },
     "variants": {
       "size": "Taglia",
@@ -429,7 +429,7 @@
     "issued": {
       "title": "Ecco i tuoi {{ value }} di gift card per {{ shop }}!",
       "subtext": "Ecco la tua gift card!",
-      "disabled": "Disabled",
+      "disabled": "Disabilitato",
       "expired": "Non attiva su {{ expiry }}",
       "active": "Attiva su {{ expiry }}",
       "redeem": "Usa questo codice al momento dell'acquisto per poter utilizzare la tua gift card!",
@@ -453,7 +453,7 @@
       "view_wishlist": "Visualizza wishlist",
       "added": "Vai alla Wishlist",
       "continue": "Continua con lo Shopping",
-      "title": "La mia Wishlist",
+      "title": "Continua con lo Shopping",
       "subtext": "Accedi!",
       "sign_in": "Login",
       "or": "Non hai ancora un account? Registrati ora!"
@@ -461,7 +461,7 @@
   },
   "product_detail": {
     "title": "Pagina del prodotto",
-    "review": "Review",
+    "review": "Revisione",
     "detail": "Descrizione"
   },
   "quickview": {
@@ -469,114 +469,31 @@
   },
   "shopify": {
     "checkout": {
-      "stock": {
-        "empty_cart_label": "Il tuo carrello è vuoto",
-        "unpurchasable_product": {
-          "header": "Alcuni prodotti sono stati rimossi dal tuo carrello."
-        },
-        "unpurchasable_product_generic": {
-          "header": "Alcuni prodotti sono stati rimossi dal tuo carrello."
-        },
-        "price_update": {
-          "description": "Il prezzo di questo prodotto è stato cambiato e aggiornato nel tuo carrello."
-        },
-        "price_and_quantity_update": {
-          "description": "Prezzo e disponibilità di alcuni prodotti sono stati modificati e aggiornati nel tuo carrello."
-        },
-        "out_of_stock": {
-          "description": "Alcuni prodottti non sono più disponibili e sono stati rimossi dal tuo carrello.",
-          "items_unavailable": "Alcuni prodottti non sono più disponibili e sono stati rimossi dal tuo carrello."
-        },
-        "removed_from_cart_notice": "Rimuovi dal carrello",
-        "remove_from_cart_button_label": "Rimuovi dal carrello",
-        "go_back_to_cart_button_label": "Torna al carrello",
-        "quantity_update": {
-          "description": "La disponibilità di alcuni prodotti è cambiata e il tuo carrello è stato aggiornato."
-        },
-        "unshippable_product": {
-          "message": {
-            "one": "Questo prodotto verrà rimosso dal tuo carrello perché non esistono metodi di spedizione disponibili per il tuo indirizzo.",
-            "other": "Questi prodotti verranno rimossi dal tuo carrello perché non esistono metodi di spedizione disponibili per il tuo indirizzo."
-          }
-        }
-      },
-      "contextual_availability": {
-        "products_not_available": {
-          "one": "Questo prodotto verrà rimosso dal tuo carrello perchè non è disponibile nel tuo Paese/Regione.",
-          "other": "Questi prodotti veranno  rimossi dal tuo carrello perchè non sono più disponibili nel tuo Paese/Regione."
-        },
-        "all_products_in_cart_unavailable": {
-          "one": "Questo prodotto non è disponibile nel tuo Paese/Regione.",
-          "other": "Questi prodotti non sono disponibili nel tuo Paese/Regione."
-        }
-      },
-      "deliverability": {
-        "not_deliverable": {
-          "message": {
-            "one": "Questo prodotto verrà rimosso dal tuo carrello perchè non ci sono metodi di consegna disponibili per il tuo indirizzo.",
-            "other": "Questi prodotti verranno rimossi dal tuo carrello perchè non ci sono metodi di consegna disponibili per il tuo indirizzo."
-          }
-        }
-      },
       "general": {
-        "errors": {
-          "delivery": {
-            "only_one_delivery_line_allowed": "Il carrello può avere una sola linea con le informazioni di spedizione."
-          }
-        },
-        "cart": "Carrello",
-        "back_to_cart": "Torna al carrello",
         "page_title": "Pagamento",
         "error_page_title": "Errore",
         "complete_purchase_button_label": "Completa l'ordine",
         "pay_now_button_label": "Paga ora",
         "authenticate_purchase_button_label": "Autenticazione pagamento",
         "edit_link_label": "Modifica",
+        "cart": "Carrello",
         "close_modal_label": "Chiudi",
         "close_notice_label": "Chiudi",
-        "continue_to_shipping_method": "Continua con la modalità di spedizione",
-        "continue_to_payment_method": "Continua con la modalità di pagamento",
+        "continue_to_shipping_method": "Vai alla spedizione",
+        "continue_to_payment_method": "Vai al pagamento",
         "continue_to_review": "Rivedi l'ordine",
-        "back_to_contact_information": "Torna a informazioni di contatto",
-        "back_to_shipping_method": "Torna al metodo di spedizione",
-        "back_to_payment_method": "Torna al metodo di pagamento",
-        "choose_shipping_method": "Scegli al metodo di pagamento",
-        "choose_payment_method": "Scegli al metodo di pagamento",
-        "choose_billing_address": "Scegli al indirizzo di fatturazione",
-        "contact_us_html": "Contattaci per maggiorni informazioni",
-        "loading": "Caricamento...",
-        "confirm_order_button_label": "Conferma ordine",
-        "submit_order_button_label": "Invia ordine",
+        "back_to_cart": "Torna al carrello",
+        "back_to_contact_information": "Torna alle informazioni",
+        "back_to_shipping_method": "Torna alla spedizione",
+        "back_to_payment_method": "Torna al pagamento",
+        "choose_shipping_method": "Scegli una modalità di spedizone",
+        "choose_payment_method": "Scelgi una modalità di pagamento",
+        "choose_billing_address": "Scegli l'indirizzo per la fatturazione",
+        "contact_us_html": "Modifica l'indirizzo di fatturazione",
+        "submit_order_button_label": "Invia ordina",
         "submit_for_review_button_label": "Invia per rivedere l'ordine",
         "back_button_label": "Indietro"
-      },
-      "order_summary": {
-        "shopping_cart_label": "Carrello",
-        "cart_does_not_meet_discount_requirements_notice": "{{code}} Questo codice sconto non è valido per gli articoli nel tuo carrello.",
-        "more_items_modal": {
-          "search_item": "Cerca",
-          "clear_search": "Pulisci ricerca"
-        }
-      },
-      "shipping": {
-        "no_rates_for_cart_or_destination_notice": "Non ci sono metodi di spedizione per gli articoli nel tuo carrello."
-      },
-      "pickup_point": {
-        "search_button": "Cerca"
-      },
-      "address_management": {
-        "confirm_address_deletion": "Sicuro di voler cancellare l'indirizzo {{address}}?"
       }
-    },
-    "notices": {
-      "cart": {
-        "too_many_items_in_cart": "Non puoi più aggiungere \"{{name}}\" nel tuo carrello.",
-        "product_not_available": "Il prodotto non è disponibile.",
-        "too_many_line_items_error": "Il tuo carrello non può contenere più di {{max}} prodotti."
-      }
-    },
-    "page_titles": {
-      "shopping_cart": "Il tuo carrello"
     }
   }
 }

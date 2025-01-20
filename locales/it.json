@@ -466,5 +466,34 @@
   },
   "quickview": {
     "total": "Totale"
+  },
+  "shopify": {
+    "checkout": {
+      "general": {
+        "page_title": "Pagamento",
+        "error_page_title": "Errore",
+        "complete_purchase_button_label": "Completa l'ordine",
+        "pay_now_button_label": "Paga ora",
+        "authenticate_purchase_button_label": "Autenticazione pagamento",
+        "edit_link_label": "Modifica",
+        "cart": "Carrello",
+        "close_modal_label": "Chiudi",
+        "close_notice_label": "Chiudi",
+        "continue_to_shipping_method": "Vai alla spedizione",
+        "continue_to_payment_method": "Vai al pagamento",
+        "continue_to_review": "Rivedi l'ordine",
+        "back_to_cart": "Torna al carrello",
+        "back_to_contact_information": "Torna alle informazioni",
+        "back_to_shipping_method": "Torna alla spedizione",
+        "back_to_payment_method": "Torna al pagamento",
+        "choose_shipping_method": "Scegli una modalità di spedizone",
+        "choose_payment_method": "Scelgi una modalità di pagamento",
+        "choose_billing_address": "Scegli l'indirizzo per la fatturazione",
+        "contact_us_html": "Modifica l'indirizzo di fatturazione",
+        "submit_order_button_label": "Invia ordina",
+        "submit_for_review_button_label": "Invia per rivedere l'ordine",
+        "back_button_label": "Indietro"
+      }
+    }
   }
 }

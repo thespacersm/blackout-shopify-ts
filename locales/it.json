@@ -14,54 +14,54 @@
       "page": ""
     },
     "password_page": {
-      "opening_soon": "",
-      "sign_up": "",
+      "opening_soon": "Apertura a breve",
+      "sign_up": "Iscriviti",
       "spread_the_word": "",
-      "login_form_heading": "",
-      "login_form_password_label": "",
-      "login_form_password_placeholder": "",
-      "login_form_submit": "",
-      "signup_form_heading": "",
-      "signup_form_email_label": "",
-      "signup_form_email_placeholder": "",
-      "signup_form_email_placeholder2": "",
-      "signup_form_submit": "",
-      "signup_form_success": "",
+      "login_form_heading": "Inserisci la password:",
+      "login_form_password_label": "Password",
+      "login_form_password_placeholder": "La tua password",
+      "login_form_submit": "Entra",
+      "signup_form_heading": "Scopri quando siamo aperti:",
+      "signup_form_email_label": "Email",
+      "signup_form_email_placeholder": "La tua email",
+      "signup_form_email_placeholder2": "Inserisci email ",
+      "signup_form_submit": "Invia",
+      "signup_form_success": "Ti manderemo una mail appena prima della nostra apertura!",
       "admin_link_html": "",
-      "password_link": "",
+      "password_link": "Inserisci password",
       "powered_by_shopify_html": ""
     },
     "404": {
       "title": "",
-      "content_one": "",
-      "content_two": "",
-      "subtext_html": ""
+      "content_one": "Qualcosa è andato storto!",
+      "content_two": "Se vuoi tornare indietro alla home",
+      "subtext_html": "oppure torna<a href=\"/collections/all\"> qui</a> per continuare con il tuo shopping."
     },
     "breadcrumbs": {
-      "home": "",
-      "home_link_title": ""
+      "home": "Home",
+      "home_link_title": "Torna alla Home"
     },
     "newsletter_form": {
-      "newsletter_email": "",
-      "newsletter_email2": "",
-      "submit": "",
-      "submit2": "",
-      "submit_footer": "",
-      "newsletter_emailh6": ""
+      "newsletter_email": "La tua email...",
+      "newsletter_email2": "La tua email...",
+      "submit": "Iscriviti ora",
+      "submit2": "INVIA",
+      "submit_footer": "ISCRIVITI",
+      "newsletter_emailh6": "Indirizzo Email..."
     },
     "search": {
-      "no_results_html": "",
-      "results_for_html": "",
-      "title": "",
-      "placeholder": "",
-      "submit": "",
-      "no_result": "",
-      "required_2charters": "",
-      "sold_out": "",
-      "loading": ""
+      "no_results_html": "La tua ricerca per \"{{ terms }}\" non ha trovato nessun risultato.",
+      "results_for_html": "I risultati per la tua ricerca \"{{ terms }}\" hanno trovato:",
+      "title": "Inizia a scrivere e clicca Invio",
+      "placeholder": "Cerca...",
+      "submit": "Cerca",
+      "no_result": "Nessun risultato.",
+      "required_2charters": "Sono richiesti almeno 2 caratteri.",
+      "sold_out": "Sold out",
+      "loading": "Caricamento..."
     },
     "contact": {
-      "title": ""
+      "title": "Contatti"
     }
   },
   "blogs": {

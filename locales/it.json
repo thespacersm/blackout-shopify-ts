@@ -10,13 +10,13 @@
 {
   "general": {
     "meta": {
-      "tags": "",
-      "page": ""
+      "tags": "Tagged \" {{tags}}\"",
+      "page": "Pagina {{page}}"
     },
     "password_page": {
       "opening_soon": "Apertura a breve",
       "sign_up": "Iscriviti",
-      "spread_the_word": "",
+      "spread_the_word": "Spargete la parola:",
       "login_form_heading": "Inserisci la password:",
       "login_form_password_label": "Password",
       "login_form_password_placeholder": "La tua password",
@@ -27,12 +27,12 @@
       "signup_form_email_placeholder2": "Inserisci email ",
       "signup_form_submit": "Invia",
       "signup_form_success": "Ti manderemo una mail appena prima della nostra apertura!",
-      "admin_link_html": "",
+      "admin_link_html": "Sei l'owner del negozio? <a href=\"/admin\" class=\"text-link\">Accedi qui</a>",
       "password_link": "Inserisci password",
-      "powered_by_shopify_html": ""
+      "powered_by_shopify_html": "questo negozio sarà alimentato da ShopiLaunch, LLC"
     },
     "404": {
-      "title": "",
+      "title": "Pagina di errore",
       "content_one": "Qualcosa è andato storto!",
       "content_two": "Se vuoi tornare indietro alla home",
       "subtext_html": "oppure torna<a href=\"/collections/all\"> qui</a> per continuare con il tuo shopping."
@@ -66,28 +66,28 @@
   },
   "blogs": {
     "general": {
-      "title": "",
-      "article_in_blog": ""
+      "title": "Pagina del Blog",
+      "article_in_blog": "Articoli del blog"
     },
     "article": {
-      "author_on_date_html": "",
-      "older_post": "",
-      "newer_post": "",
-      "tags": "",
-      "comment_meta_html": "",
-      "read_more": "",
-      "poster_by": "",
-      "share": "",
-      "in_the": "",
-      "on": "",
-      "says": "",
-      "by": "",
-      "category": "",
-      "next_post": "",
-      "prev_post": ""
+      "author_on_date_html": "Postato da. {{author}} il {{date}}",
+      "older_post": "Torna agli articoli",
+      "newer_post": "Prossimo articolo",
+      "tags": "Tags",
+      "comment_meta_html": "{{author}} il {{date}}",
+      "read_more": "Leggi di più",
+      "poster_by": "Postato da",
+      "share": "Condividi",
+      "in_the": "Nel",
+      "on": "il",
+      "says": "Dice",
+      "by": "Da",
+      "category": "Categorie",
+      "next_post": "Prossimo post",
+      "prev_post": "Post precedente"
     },
     "comments": {
-      "title": "",
+      "title": "Lascia un commento",
       "des": "",
       "name": "",
       "email": "",
@@ -114,8 +114,8 @@
     "general": {
       "title": "Carrello",
       "remove": "Rimuovi",
-      "note": "",
-      "subtotal": "",
+      "note": "Istuzioni speciali per venditori",
+      "subtotal": "Subtotale",
       "shipping_at_checkout": "Spedizione e tasse saranno aggiunte al momento dell'acquisto.",
       "update": "Aggiorna carrello",
       "checkout": "Procedi con l'acquisto",

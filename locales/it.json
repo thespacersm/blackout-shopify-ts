@@ -88,26 +88,26 @@
     },
     "comments": {
       "title": "Lascia un commento",
-      "des": "",
-      "name": "",
-      "email": "",
-      "message": "",
-      "submit": "",
-      "reply": "",
-      "moderated": "",
-      "success_moderated": "",
-      "success": "",
-      "comment": "",
+      "des": "La tua email non sarà pubblica. i campi obbligatori sono segnlai da un *",
+      "name": "User name*",
+      "email": "Email*",
+      "message": "Commento*",
+      "submit": "Invia",
+      "reply": "Rispondi",
+      "moderated": "I commenti devono essere approvati prima di essere pubblicati.",
+      "success_moderated": "Il tuo commento è stato pubblicato correttamente. Lo potrai visualizzare a breve.",
+      "success": "Il tuo commento è stato pubblicato con successo! Grazie!",
+      "comment": "Commenti",
       "comments_with_count": {
-        "zero": "",
-        "one": "",
-        "other": ""
+        "zero": "{{ count }} commenti",
+        "one": "{{ count }} commento",
+        "other": "{{ count }} commenti"
       }
     },
     "sidebar": {
-      "recent_articles": "",
-      "categories": "",
-      "tags": ""
+      "recent_articles": "Articoli recenti",
+      "categories": "Categorie",
+      "tags": "Tags"
     }
   },
   "cart": {
@@ -125,12 +125,12 @@
       "continue": "Continua con lo Shopping"
     },
     "label": {
-      "thumbnail": "",
+      "thumbnail": "Thumbnail",
       "product": "Nome del prodotto",
       "price": "Prezzo",
       "quantity": "Quantità",
-      "del": "",
-      "cart_note": "",
+      "del": "Del",
+      "cart_note": "Note Carrello",
       "cart_total": "TOTALE DEL CARRELLO",
       "total": "Totale",
       "term": "Acconsenti ai termini e condizioni.",
@@ -170,8 +170,8 @@
       }
     },
     "sidebar": {
-      "tags": "",
-      "brands": "",
+      "tags": "Tags",
+      "brands": "Brands",
       "category": "Categorie",
       "clear_all": "Cancella tutto"
     },
@@ -292,9 +292,9 @@
       "fulfillment_status": "Stato di adempimento",
       "discount": "Sconto",
       "shipping": "Spedizione",
-      "tax": "",
+      "tax": "Tasse",
       "product": "Prodotto",
-      "sku": "",
+      "sku": "SKU",
       "price": "Prezzo",
       "quantity": "Quantità",
       "total": "Totale",
@@ -329,9 +329,9 @@
   },
   "homepage": {
     "sections": {
-      "frontpage_title": "",
-      "featured_title": "",
-      "news_title": ""
+      "frontpage_title": "FrontPage collections",
+      "featured_title": "Featured Collections",
+      "news_title": "Latest Newest"
     },
     "onboarding": {
       "modal_title": "",

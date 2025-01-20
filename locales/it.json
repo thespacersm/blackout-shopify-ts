@@ -460,9 +460,9 @@
     }
   },
   "product_detail": {
-    "title": "",
+    "title": "Pagina del prodotto",
     "review": "",
-    "detail": ""
+    "detail": "Descrizione"
   },
   "quickview": {
     "total": ""

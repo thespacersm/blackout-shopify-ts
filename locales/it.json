@@ -155,12 +155,12 @@
   },
   "collections": {
     "general": {
-      "title": "",
-      "list_of_collection": "",
-      "view_collection": "",
-      "all_of_collection": "",
-      "no_matches": "",
-      "link_title": "",
+      "title": "Tutte le collezioni",
+      "list_of_collection": "Tutte le collezioni",
+      "view_collection": "Guarda la collezione",
+      "all_of_collection": "Tutte {{ collection }}",
+      "no_matches": "Mi dispiace, non ci sono prodotti in questa collezione.",
+      "link_title": "Guarda la nostra collezione di {{ title }} ",
       "grid_view": "",
       "list_view": "",
       "all_filter": "",

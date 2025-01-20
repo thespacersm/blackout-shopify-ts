@@ -155,50 +155,50 @@
   },
   "collections": {
     "general": {
-      "title": "Collection Page",
-      "list_of_collection": "All collection",
-      "view_collection": "View Collection",
-      "all_of_collection": "All {{ collection }}",
-      "no_matches": "Sorry, there are no products in this collection",
-      "link_title": "Browse our {{ title }} collection",
-      "grid_view": "Grid view",
-      "list_view": "List view",
-      "all_filter": "All Filter",
+      "title": "Tutte le collezioni",
+      "list_of_collection": "Tutte le collezioni",
+      "view_collection": "Guarda la collezione",
+      "all_of_collection": "Tutte {{ collection }}",
+      "no_matches": "Mi dispiace, non ci sono prodotti in questa collezione.",
+      "link_title": "Guarda la nostra collezione di {{ title }} ",
+      "grid_view": "Vedi come griglia",
+      "list_view": "Vedi come lista",
+      "all_filter": "Tutti i filtri",
       "items_with_count": {
-        "one": "{{ count }} item",
-        "other": "{{ count }} items"
+        "one": "{{ count }} prodotti",
+        "other": "{{ count }} prodotti"
       }
     },
     "sidebar": {
       "tags": "Tags",
       "brands": "Brands",
-      "category": "Categories",
-      "clear_all": "Clear all"
+      "category": "Categorie",
+      "clear_all": "Cancella tutto"
     },
     "sorting": {
-      "title": "Sort:",
-      "featured": "Default sorting",
-      "best_selling": "Best Selling",
-      "az": "Alphabetically, A-Z",
-      "za": "Alphabetically, Z-A",
-      "price_ascending": "Price, low to high",
-      "price_descending": "Price, high to low",
-      "date_descending": "Date, new to old",
-      "date_ascending": "Date, old to new"
+      "title": "Ordina:",
+      "featured": "Ordine di default:",
+      "best_selling": "I più venduti",
+      "az": "In ordine alfabetico, A-Z",
+      "za": "In ordine alfabetico discendente, Z-A",
+      "price_ascending": "Prezzo,dal più basso al più alto",
+      "price_descending": "Prezzo, dal più alto al più basso",
+      "date_descending": "Data, dal più recente al più vecchio",
+      "date_ascending": "Data, dal più vecchio al più recente"
     },
     "showby": {
-      "show": "Per Page:",
-      "of": "of",
-      "results": "results",
+      "show": "Per Pagina:",
+      "of": "di",
+      "results": "risultati",
       "default": "Default"
     },
     "viewas": {
-      "view": "View As:"
+      "view": "Vedi come:"
     },
     "onboarding": {
-      "modal_title": "This page will show all of your store's products",
-      "no_products_html": "There are no products yet, but once you begin adding them they will show up here regardless if they are in a collection.",
-      "add_product": "Add Product"
+      "modal_title": "Questa pagina mostra tutti i prodotti del negozio. online.",
+      "no_products_html": "Non ci sono ancora prodotti, ma quando verranno caricati saranno visibili qui indipendentemente dalla categoria",
+      "add_product": "Aggiungi prodotto"
     }
   },
   "popup": {

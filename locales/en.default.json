@@ -348,37 +348,37 @@
       "menu": "Menu"
     },
     "heading": {
-      "see_all": "See all"
+      "see_all": "Vedi tutto"
     },
     "drawers": {
       "browse": "Browse",
-      "close_menu": "Close menu",
-      "shop_now": "Shop now"
+      "close_menu": "Chiudi menu",
+      "shop_now": "Compra Ora"
     },
     "cart": {
-      "title": "My cart",
+      "title": "Il mio carrello",
       "items_count": {
-        "one": "item",
-        "other": "items"
+        "one": "Prodotto",
+        "other": "Prodotti"
       }
     },
     "customer": {
       "account": "Account",
-      "logged_in_as_html": "Logged in as {{ first_name }}",
-      "log_out": "Log out",
-      "log_in": "Log in",
-      "create_account": "Register",
-      "login_register": "Login/Register",
+      "logged_in_as_html": "Registrata come {{ first_name }}",
+      "log_out": "Esci",
+      "log_in": "Accedi",
+      "create_account": "Registrati",
+      "login_register": "Accedi/Registrati",
       "view_cart": "Vedi Carrello",
       "wishlist": "Wishlist",
-      "favourite": "Favorites",
-      "hello": "Hello!"
+      "favourite": "referiti",
+      "hello": "Ciao!"
     },
     "footer": {
       "social_title": "Get Connected",
       "newsletter_title": "Newsletter",
-      "newsletter_description": "Subscribe to the Universal mailing list to receive updates on new arrivals, offers and other discount information.",
-      "accepted_payments": "Accepted Payments"
+      "newsletter_description": "Iscriviti per ricevere informazioni sui nuovi arrivi, le offerte e altri sconti.",
+      "accepted_payments": "Pagamenti accettati"
     }
   },
   "products": {

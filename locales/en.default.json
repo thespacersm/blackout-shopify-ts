@@ -432,7 +432,7 @@
       "disabled": "Disabled",
       "expired": "Non attiva su {{ expiry }}",
       "active": "Attiva su {{ expiry }}",
-      "redeem": "Usa questo codice al checkout per poter utilizzare la tua gift card!",
+      "redeem": "Usa questo codice al momento dell'acquisto per poter utilizzare la tua gift card!",
       "shop_link": "Comincia con lo shopping",
       "print": "Stampa",
       "add_to_apple_wallet": "Aggiungi a Apple Wallet"

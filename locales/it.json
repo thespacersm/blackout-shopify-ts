@@ -338,7 +338,7 @@
       "no_products_html": "",
       "add_product": "Aggiungi un prodotto",
       "product_title": "Esempio Titolo del Prodotto",
-      "no_collections_html": "",
+      "no_collections_html": "Non hai proodotti nella collezione Frontpage. Questo placeholder comparirà finché tu<a href=\"/admin/collections?tutorial=Frontpage\"> non aggiungerai un prodotto alla tua collezione </a>.",
       "add_collection": "Aggiungi una collezione",
       "collection_title": "Esempio Titolo della Collezione"
     }

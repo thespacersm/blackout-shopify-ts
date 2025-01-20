@@ -14,54 +14,54 @@
       "page": "Page {{ page }}"
     },
     "password_page": {
-      "opening_soon": "Opening Soon",
-      "sign_up": "Subscribe",
+      "opening_soon": "Apertura a breve",
+      "sign_up": "Iscriviti",
       "spread_the_word": "Spread the word:",
-      "login_form_heading": "Enter store using password:",
+      "login_form_heading": "Inserisci la password:",
       "login_form_password_label": "Password",
-      "login_form_password_placeholder": "Your password",
-      "login_form_submit": "Enter",
-      "signup_form_heading": "Find out when we open:",
+      "login_form_password_placeholder": "La tua password",
+      "login_form_submit": "Entra",
+      "signup_form_heading": "Scopri quando siamo aperti:",
       "signup_form_email_label": "Email",
-      "signup_form_email_placeholder": "Your email",
-      "signup_form_email_placeholder2": "Enter Your email ",
-      "signup_form_submit": "Submit",
-      "signup_form_success": "We will send you an email right before we open!",
+      "signup_form_email_placeholder": "La tua email",
+      "signup_form_email_placeholder2": "Inserisci email ",
+      "signup_form_submit": "Invia",
+      "signup_form_success": "Ti manderemo una mail appena prima della nostra apertura!",
       "admin_link_html": "Are you the store owner? <a href=\"/admin\" class=\"text-link\">Log in here</a>",
-      "password_link": "Enter using password",
+      "password_link": "Inserisci password",
       "powered_by_shopify_html": "This shop will be powered by ShopiLaunch, LLC"
     },
     "404": {
       "title": "Error Page",
-      "content_one": "Well! Something you go wrong pages",
-      "content_two": "If you want go back to my hotel. Please in put the box below",
-      "subtext_html": "or go back <a href=\"/collections/all\">here</a> to continue shopping."
+      "content_one": "Bene! Qualcosa è andato storto",
+      "content_two": "Se vuoi tornare indietro alla home",
+      "subtext_html": "oppure torna<a href=\"/collections/all\"> qui</a> per continuare con il tuo shopping."
     },
     "breadcrumbs": {
       "home": "Home",
-      "home_link_title": "Back to the frontpage"
+      "home_link_title": "Torna alla Home"
     },
     "newsletter_form": {
-      "newsletter_email": "Your email address...",
-      "newsletter_email2": "Your email...",
-      "submit": "Subscribe now",
-      "submit2": "SUBMIT",
-      "submit_footer": "SUBSCRIBE",
-      "newsletter_emailh6": "Email Address..."
+      "newsletter_email": "La tua email...",
+      "newsletter_email2": "La tua email...",
+      "submit": "Iscriviti ora",
+      "submit2": "INVIA",
+      "submit_footer": "ISCRIVITI",
+      "newsletter_emailh6": "Indirizzo Email..."
     },
     "search": {
-      "no_results_html": "Your search for \"{{ terms }}\" did not yield any results.",
-      "results_for_html": "Your search for \"{{ terms }}\" revealed the following:",
-      "title": "Start typing and hit Enter",
-      "placeholder": "Search for product...",
-      "submit": "Search",
-      "no_result": "No result found for your search.",
-      "required_2charters": "You must enter at least 2 characters.",
+      "no_results_html": "La tua ricerca per \"{{ terms }}\" non ha trovato nessun risultato.",
+      "results_for_html": "I risultati per la tua ricerca \"{{ terms }}\" hanno trovato:",
+      "title": "Inizia a scrivere e clicca Invio",
+      "placeholder": "Cerca...",
+      "submit": "Cerca",
+      "no_result": "Nessun risultato.",
+      "required_2charters": "Sono richiesti almeno 2 caratteri.",
       "sold_out": "Sold out",
-      "loading": "Loading..."
+      "loading": "Caricamento..."
     },
     "contact": {
-      "title": "Contact"
+      "title": "Contatti"
     }
   },
   "blogs": {

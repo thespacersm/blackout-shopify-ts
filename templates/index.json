@@ -43,7 +43,8 @@
             "effect_title3": "bounce",
             "ena_slide_video": false,
             "url_ytb_video": "",
-            "block_banerimage": "shopify://shop_images/blackout-slide-3_1.jpg"
+            "block_banerimage": "shopify://shop_images/blackout-slide-3_1.jpg",
+            "block_banerimage_mb": "shopify://shop_images/novita_mobile.jpg"
           }
         },
         "slideshow_TMNULa": {
@@ -77,7 +78,8 @@
             "effect_title3": "bounce",
             "ena_slide_video": false,
             "url_ytb_video": "",
-            "block_banerimage": "shopify://shop_images/blackout-slide-2_1.jpg"
+            "block_banerimage": "shopify://shop_images/blackout-slide-2_1.jpg",
+            "block_banerimage_mb": "shopify://shop_images/donna_mobile.jpg"
           }
         },
         "6a7425c9-48c8-4652-a863-ae568487b3c9": {
@@ -111,7 +113,8 @@
             "effect_title3": "bounce",
             "ena_slide_video": false,
             "url_ytb_video": "",
-            "block_banerimage": "shopify://shop_images/006e907e69eb102fdd48e7fc808ead52_-_dimensioni_grandi.jpg"
+            "block_banerimage": "shopify://shop_images/006e907e69eb102fdd48e7fc808ead52_-_dimensioni_grandi.jpg",
+            "block_banerimage_mb": "shopify://shop_images/uomo_mobile.jpg"
           }
         }
       },

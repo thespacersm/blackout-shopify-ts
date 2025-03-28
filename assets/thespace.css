@@ -1,0 +1,9 @@
+.btn-action.detail-attr.qty-cart {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+#shopify-section-template--18704626745601__main button {
+    width: auto!important;
+}

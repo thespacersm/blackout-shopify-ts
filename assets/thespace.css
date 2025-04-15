@@ -9,20 +9,20 @@
 }
 
 .img-product.relative {
-    height: 500px;
+    height: 550px;
     object-fit: cover;
     }
 .product-item-v9 {
-    height: 650px;
+    height: 670px;
 }
 
 @media(max-width:879px){
   .img-product.relative {
-    height: 300px;
+    height: 350px;
     object-fit: cover;
 }
   .product-item-v9 {
-    height: 400px;
+    height: 450px;
 }
  footer.footer_v1 .row > .col-lg-4:first-child {
     width: 100%;

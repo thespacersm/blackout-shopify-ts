@@ -8,22 +8,10 @@
     width: auto!important;
 }
 
-.img-product.relative {
-    height: 550px;
-    object-fit: cover;
-    }
-.product-item-v9 {
-    height: 670px;
-}
+
 
 @media(max-width:879px){
-  .img-product.relative {
-    height: 350px;
-    object-fit: cover;
-}
-  .product-item-v9 {
-    height: 450px;
-}
+
  footer.footer_v1 .row > .col-lg-4:first-child {
     width: 100%;
     flex: 0 0 100%;

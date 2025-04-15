@@ -8,14 +8,27 @@
     width: auto!important;
 }
 
-.img-product.relative {
-    width: 100%;
-    max-height: 360px;
-    background-size: cover;
-    }
+
 .product-item-v9 {
     height: 460px;
 }
+
+.img-product {
+  aspect-ratio: 1 / 1; 
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
+
+.img-product img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+
 
 @media(max-width:879px){
   .img-product.relative {

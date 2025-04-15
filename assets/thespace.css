@@ -47,5 +47,11 @@
   footer.footer_v1 .info_footer {
     padding: 10px;
   }
+  #shopify-section-template--18704626745601__main button {
+    font-size: 13px;
+    line-height: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0px 17px;
 
 }

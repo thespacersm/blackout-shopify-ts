@@ -9,7 +9,7 @@
 }
 
 .img-product.relative {
-    height: 400px;
+    height: 500px;
     object-fit: cover;
     }
 .product-item-v9 {
@@ -18,7 +18,7 @@
 
 @media(max-width:879px){
   .img-product.relative {
-    height: 215px;
+    height: 300px;
     object-fit: cover;
 }
   .product-item-v9 {

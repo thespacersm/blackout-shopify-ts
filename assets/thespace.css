@@ -32,6 +32,9 @@
     margin-bottom: 30px;
     max-height: 450px;
 }
+.list-category .img_collection{
+  max-height:400px;
+}
 
 
 

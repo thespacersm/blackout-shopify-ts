@@ -13,7 +13,7 @@
     object-fit: cover;
     }
 .product-item-v9 {
-    height: 550px;
+    height: 650px;
 }
 
 @media(max-width:879px){
@@ -22,7 +22,7 @@
     object-fit: cover;
 }
   .product-item-v9 {
-    height: 330px;
+    height: 400px;
 }
  footer.footer_v1 .row > .col-lg-4:first-child {
     width: 100%;

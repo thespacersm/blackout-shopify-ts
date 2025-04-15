@@ -24,7 +24,6 @@
   .product-item-v9 {
     height: 330px;
 }
-  @media (max-width: 767px) {
   .row > .col-lg-4:first-child {
     width: 100%;
     flex: 0 0 100%;
@@ -37,7 +36,7 @@
     width: 33.33%;
     flex: 0 0 33.33%;
     max-width: 33.33%;
-    text-align: center;
+    text-align: left;
   }
 
   .row {
@@ -48,6 +47,6 @@
   .info_footer {
     padding: 10px;
   }
-}
+
 
 }

@@ -8,8 +8,8 @@
     width: auto!important;
 }
 
-media (min-width: 1200px) {
-    .container {
-        max-width: 1420px!important;
-    }
+.img-product.relative {
+    height: 400px;
+    object-fit: cover;
+    place-content: center;
 }

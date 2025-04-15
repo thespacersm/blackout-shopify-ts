@@ -11,7 +11,9 @@
   "sections": {
     "page_wishlist": {
       "type": "page-wishlist",
-      "settings": {}
+      "settings": {
+        "bg_breadcrumb": "shopify://shop_images/2148077921.jpg"
+      }
     }
   },
   "order": [

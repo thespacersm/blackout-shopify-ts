@@ -11,5 +11,5 @@
 .img-product.relative {
     height: 400px;
     object-fit: cover;
-    place-content: center;
+    align-content: center;
 }

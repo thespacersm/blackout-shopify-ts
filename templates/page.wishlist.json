@@ -12,7 +12,7 @@
     "page_wishlist": {
       "type": "page-wishlist",
       "settings": {
-        "bg_breadcrumb": "shopify://shop_images/2148077921.jpg"
+        "bg_breadcrumb": "shopify://shop_images/wishlist.png"
       }
     }
   },

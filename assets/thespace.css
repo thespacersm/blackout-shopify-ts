@@ -24,4 +24,30 @@
   .product-item-v9 {
     height: 330px;
 }
+  @media (max-width: 767px) {
+  .row > .col-lg-4:first-child {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .row > .col-lg-3,
+  .row > .col-lg-2 {
+    width: 33.33%;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    text-align: center;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .info_footer {
+    padding: 10px;
+  }
+}
+
 }

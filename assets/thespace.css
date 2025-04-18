@@ -9,12 +9,8 @@
 }
 
 
-.product-item-v9 {
-    height: 550px;
-}
-
 .img-product {
-  aspect-ratio: 1 / 1; 
+  aspect-ratio: 3/4; 
   overflow: hidden;
   display: block;
   position: relative;
@@ -23,7 +19,7 @@
 .img-product img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+    object-fit: contain;
   object-position: center;
   display: block;
 }
@@ -43,9 +39,7 @@
     height: 250px;
     object-fit: cover;
 }
-  .product-item-v9 {
-    height: 350px;
-}
+
  footer.footer_v1 .row > .col-lg-4:first-child {
     width: 100%;
     flex: 0 0 100%;

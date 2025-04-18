@@ -50,6 +50,12 @@
     padding: 10px;
   }
 
+  .section-product-v2 .nav-tabs.title-tab li .ds-prod-1 {
+        font-size: 11px;
+        padding: 10px 15px;
+        height: 30px;
+    }
+
 }
   #shopify-section-template--18704626745601__main button {
     padding: 0px 17px!important;

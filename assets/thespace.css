@@ -8,6 +8,7 @@
     width: auto!important;
 }
 
+/*immagini prodotti*/
 .img-product {
     aspect-ratio: 3 / 4;
     overflow: hidden;
@@ -17,8 +18,15 @@
     object-fit: contain;
 }
 
+/*caroselli di prodotti*/
+.pagi-nav .next a {
+  font-size: 0;
+}
 
-
+.pagi-nav .next a::after {
+  content: '»'; 
+  font-size: 16px;
+}
 
 @media(max-width:879px){
   .img-product.relative {

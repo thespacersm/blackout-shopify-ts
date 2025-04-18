@@ -13,7 +13,7 @@
     overflow: hidden;
     display: block;
     position: relative;
-    background-color: grey;
+    background-color: #eee7dc;
     object-fit: contain;
 }
 

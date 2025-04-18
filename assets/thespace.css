@@ -24,8 +24,11 @@
   display: block;
 }
 
-
-
+img.img-responsive.lazyloaded {
+    background-color: #EEE7DC;
+    height: 350px;
+    object-fit: contain;
+}
 
 
 @media(max-width:879px){

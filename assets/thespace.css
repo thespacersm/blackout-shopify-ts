@@ -28,6 +28,16 @@
   font-size: 16px;
 }
 
+/*Privacy policy*/
+.shopify-policy__container {
+    max-width: 560px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
 @media(max-width:879px){
   .img-product.relative {
     height: 250px;

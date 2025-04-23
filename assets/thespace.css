@@ -79,3 +79,11 @@
   #shopify-section-template--18704626745601__main button {
     padding: 0px 17px!important;
   }
+
+.page-404 h1, .page-404 h2, .page-404 p {
+  color: white;
+}
+
+.content-404 .sub-title, .content-404 .sub-link{
+  color:#cfcfcf;
+}

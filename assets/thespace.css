@@ -83,6 +83,9 @@
 .content-404 .title-404{
   color: white!important;
 }
+.content-404 .page-title{
+  color: white!important;
+}
 
 .content-404 .sub-title, .content-404 .sub-link{
   color:#cfcfcf;

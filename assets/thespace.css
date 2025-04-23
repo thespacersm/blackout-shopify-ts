@@ -39,11 +39,11 @@
 
 
 @media(max-width:879px){
-  .img-product.relative {
+  /*.img-product.relative {
     height: 250px;
     object-fit: cover;
     width:100%;
-}
+}*/
 
  footer.footer_v1 .row > .col-lg-4:first-child {
     width: 100%;

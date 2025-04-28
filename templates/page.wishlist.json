@@ -12,7 +12,7 @@
     "page_wishlist": {
       "type": "page-wishlist",
       "settings": {
-        "bg_breadcrumb": "shopify://shop_images/wishlist.png"
+        "bg_breadcrumb": "shopify://shop_images/pexels-karolina-grabowska-4862913.jpg"
       }
     }
   },

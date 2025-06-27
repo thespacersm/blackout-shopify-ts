@@ -96,9 +96,11 @@
             <div class="form-group">
               <input type="password" class="form-control" name="customer[password]" placeholder="{{ 'customer.register.password' | t }}" required>
             </div>
+            {% render 'gdpr-checkbox' %}
             <button type="submit" class="btn btn-dark w-100" value="{{ 'customer.register.submit' | t }}">
               {{ 'customer.register.submit' | t }}
             </button>
+            {% render 'gdpr-disclaimer' %}
             {% endform %}
           </div>
           <div class="or_creat my-3">

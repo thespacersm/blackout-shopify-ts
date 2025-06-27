@@ -1,0 +1,18 @@
+{% comment %}
+  Inserire "{% render 'gdpr-disclaimer' %}" nel punto desiderato all'interno dei form (es. contatto, registrazione). Posizionarlo preferibilmente subito dopo il pulsante di invio.
+{% endcomment %}
+
+<div class="form-disclaimer-space">
+    <small>
+      Questo sito è protetto da hCaptcha e applica le 
+      <a href="https://www.hcaptcha.com/privacy" target="_blank">Norme sulla privacy</a> e i 
+      <a href="https://www.hcaptcha.com/terms" target="_blank">Termini di servizio</a> di hCaptcha.
+    </small>
+</div>
+
+<style>
+  .form-disclaimer-space small {font-size:11px;}
+  .form-disclaimer-space { line-height: 18px; margin-top: 10px; }
+  .form-disclaimer-space {text-align:left; color:#333; margin-top:15px;}
+  .newsletter .form-disclaimer-space small, .newsletter .form-disclaimer-space small a {color:#fff}
+</style>

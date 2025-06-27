@@ -1,0 +1,18 @@
+{% comment %}
+  Inserire "{% render 'gdpr-checkbox' %}" nel punto desiderato all'interno dei form (es. contatto, registrazione). Posizionarlo preferibilmente subito dopo il pulsante di invio.
+{% endcomment %}
+
+  <div class="gdpr-checkbox-space">
+    <label>
+      <input type="checkbox" name="gdpr_consent" required>
+      Acconsento al trattamento dei dati secondo la <a href="/policies/privacy-policy" target="_blank">privacy policy</a> di {{ shop.name }} (obbligatorio).
+    </label>
+  </div>
+
+<style>
+  .gdpr-checkbox-space label {font-size:13px;}
+  .gdpr-checkbox-space {line-height: 18px;}
+  .gdpr-checkbox-space {text-align:left; color:#333; margin-top:15px;}
+  .newsletter .gdpr-checkbox-space  label, .newsletter .gdpr-checkbox-space  label a {color:#fff}
+  footer .site-footer-block-newsletter { max-width: 400px!important; }
+</style>

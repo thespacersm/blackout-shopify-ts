@@ -39,11 +39,8 @@
             </form>
           </div> 
           <div style="margin-top: 20px">
-            <label style="font-size:14px; color:#727272; margin-left:20px;">
-              <input type="checkbox" id="privacyConsent" required >
-              Acconsento al trattamento dei miei dati personali in conformità alla <a href="/policies/privacy-policy" target="_blank" style="color: #CEA384;
-    text-decoration: underline;">Privacy Policy</a> e <a href="/policies/privacy-policy" target="_blank" style="color: #CEA384;
-    text-decoration: underline;">Cookie Policy</a>.</label>
+            {% render 'gdpr-checkbox' %}
+            {% render 'gdpr-disclaimer' %}
           </div>
         </div>
       </div>

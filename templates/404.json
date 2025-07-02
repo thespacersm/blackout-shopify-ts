@@ -12,7 +12,8 @@
     "main": {
       "type": "main-404",
       "custom_css": [
-        "div#content {background-size: cover; background-position: center right;}"
+        "div#content {background-size: cover; background-position: center right;}",
+        ".content-404 .sub-link a {color: #ffffff; font-size: 17px; font-weight: 600; text-decoration: underline;}"
       ],
       "settings": {}
     }

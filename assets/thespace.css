@@ -102,3 +102,11 @@
     --_1m2hr9gc: #cea384;
     --_1m2hr9g6: #cea384;
 }
+
+.cc-revoke.cc-bottom.cc-left{
+  bottom:55px!important;
+}
+img.img-whatsapp{
+  position:relative;
+  bottom:30px;
+}

@@ -110,3 +110,6 @@ img.img-whatsapp{
   position:relative;
   bottom:30px;
 }
+a.back-to-top.active {
+    display: none;
+}

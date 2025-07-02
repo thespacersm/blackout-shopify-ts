@@ -1,15 +1,31 @@
-# we use Shopify as our ecommerce platform
 {%- comment -%}
-# Caution! Please read https://help.shopify.com/en/manual/promoting-marketing/seo/editing-robots-txt before proceeding to make changes to this file.
-{% endcomment %}
+# Caution! Please read https://help.shopify.com/en/manual/promoting-marketing/seo/ editing-robots-txt before proceeding to make changes to this file.
+{%- endcomment -%}
 {% for group in robots.default_groups %}
-  {{- group.user_agent -}}
-
-  {% for rule in group.rules %}
-    {{- rule -}}
-  {% endfor %}
-
+  {{- group.user_agent }}	
+  {%- for rule in group.rules -%}
+    {{ rule }}	
+  {%- endfor -%}	
+  {%- if group.user_agent.value == '*' -%}
+    {{ 'Disallow: /*?q=*' }}	
+  {%- endif -%}		
   {%- if group.sitemap != blank -%}
-    {{ group.sitemap }}
-  {%- endif -%}
+      {{ group.sitemap }}	
+  {%- endif -%}		
 {% endfor %}
+# Custom SEO rules
+User-agent: *
+Disallow: /collections/vendors*?*q=*
+Disallow: /collections/types*?*q=*
+Disallow: /collections/*?*constraint*
+Disallow: /collections/*?*filter*
+Disallow: /collections/*?*pf_*
+Disallow: /collections/*?*view*
+Disallow: /collections/*?*grid_list*
+Disallow: /collections/?page=*
+Disallow: /collections/*sort_by*
+Disallow: /blogs/*/tagged/*
+Disallow: /cart/*
+Disallow: /account/*
+Sitemap: https://www.ilmondobaby.com/sitemap.xml
+

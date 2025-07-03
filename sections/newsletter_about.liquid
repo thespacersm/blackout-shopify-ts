@@ -53,14 +53,45 @@
         <p class="mb-3 content"  style="color: {{section.settings.color_content}}">{{section.settings.content_newletter}}</p>
         {% endif %}      
 
-        <div class="newletter_email">          
-          <form class="needs-validation form-inline" action="{{form_action}}" method="post">
-            <div class="form-group">                           
-              <input type="email" name="EMAIL" class="form-control" placeholder="{{ 'general.newsletter_form.newsletter_email' | t }}" required >                 
-            </div>
-            <button class="btn" type="submit"><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512"><path d="m8.75 17.612v4.638c0 .324.208.611.516.713.077.025.156.037.234.037.234 0 .46-.11.604-.306l2.713-3.692z"/><path d="m23.685.139c-.23-.163-.532-.185-.782-.054l-22.5 11.75c-.266.139-.423.423-.401.722.023.3.222.556.505.653l6.255 2.138 13.321-11.39-10.308 12.419 10.483 3.583c.078.026.16.04.242.04.136 0 .271-.037.39-.109.19-.116.319-.311.352-.53l2.75-18.5c.041-.28-.077-.558-.307-.722z"/></svg></button>
-          </form>
-        </div> 
+       <!-- Sezione del modulo di iscrizione alla newsletter -->
+<div class="newletter_email">          
+  <form class="needs-validation form-inline" action="{{form_action}}" method="post" id="newsletter-form">
+    <div class="form-group">                           
+      <input type="email" name="EMAIL" class="form-control" placeholder="{{ 'general.newsletter_form.newsletter_email' | t }}" required>                 
+    </div>
+    <button class="btn" type="submit">Submit</button>
+  </form>
+</div>
+
+<!-- Script di reindirizzamento alla Thank You Page -->
+<script>
+  document.querySelector('#newsletter-form').addEventListener('submit', function(event) {
+    event.preventDefault(); // Impedisce l'invio del modulo tradizionale
+
+    var form = event.target;
+    var formData = new FormData(form);
+    
+    // Invio del modulo via AJAX
+    fetch(form.action, {
+      method: 'POST',
+      body: formData
+    })
+    .then(function(response) {
+      if (response.ok) {
+        // Se la risposta è OK, reindirizza alla pagina di ringraziamento
+        window.location.href = '/pages/thank-you-page'; // Reindirizza alla Thank You Page
+      } else {
+        // Gestisci eventuali errori (opzionale)
+        alert('Errore nell\'iscrizione. Riprova più tardi.');
+      }
+    })
+    .catch(function(error) {
+      console.error('Errore nell\'invio del modulo:', error);
+      alert('Errore nell\'invio del modulo. Riprova più tardi.');
+    });
+  });
+</script>
+
       </div>
     </div>
     

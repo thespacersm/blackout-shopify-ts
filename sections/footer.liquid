@@ -33,6 +33,16 @@
 
 {% endif %}
 
+<form method="POST" action="/contact#newsletter">
+  <!-- Qui vanno i campi del modulo -->
+</form>
+
+<script>
+  document.querySelector('form').addEventListener('submit', function() {
+    window.location.href = '/pages/thank-you-page'; // Reindirizza alla Thank You Page
+  });
+</script>
+
 {% schema %}
 {
   "name": "Footer",

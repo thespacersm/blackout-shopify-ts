@@ -159,36 +159,46 @@ addons can override it.
 </script
 
   
-  {% assign max_discount = 0 %}
+{% assign max_discount = 0 %}
 
-{% for collection in product.collections %}
-  {% if collection.metafields.custom.discount_percent %}
-    {% assign discount_value = collection.metafields.custom.discount_percent | plus: 0 %}
-    {% if discount_value > max_discount %}
-      {% assign max_discount = discount_value %}
+{% for col in product.collections %}
+  {% if col.metafields.custom.discount_percent %}
+    {% assign this_discount = col.metafields.custom.discount_percent | plus: 0 %}
+    {% if this_discount > max_discount %}
+      {% assign max_discount = this_discount %}
     {% endif %}
   {% endif %}
 {% endfor %}
 
+{% assign original_price = product.price %}
+{% assign discounted_price = original_price %}
+
 {% if max_discount > 0 %}
   {% assign discount_multiplier = max_discount | divided_by: 100.0 %}
-  {% assign discount_amount = product.price | times: discount_multiplier %}
-  {% assign discounted_price = product.price | minus: discount_amount %}
-
-  <span class="compare-price text-line-through">
-    {{ product.price | money }}
-  </span>
-  <span class="discounted-price text-bold">
-    {{ discounted_price | money }}
-  </span>
-  <span class="discount-label">
-    -{{ max_discount }}%
-  </span>
-{% else %}
-  <span class="regular-price">
-    {{ product.price | money }}
-  </span>
+  {% assign discount_amount = original_price | times: discount_multiplier %}
+  {% assign discounted_price = original_price | minus: discount_amount %}
 {% endif %}
+
+<!-- OUTPUT HTML -->
+
+{% if max_discount > 0 %}
+  <p class="price-wrapper">
+    <span class="compare-price" style="text-decoration:line-through; color:#999;">
+      {{ original_price | money }}
+    </span>
+    <span class="discounted-price" style="color:#000; font-weight:bold;">
+      {{ discounted_price | money }}
+    </span>
+    <span class="discount-label" style="color:#c00; margin-left:8px;">
+      -{{ max_discount }}%
+    </span>
+  </p>
+{% else %}
+  <p class="regular-price">
+    {{ original_price | money }}
+  </p>
+{% endif %}
+
 
 
   

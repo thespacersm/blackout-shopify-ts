@@ -113,3 +113,20 @@ img.img-whatsapp{
 a.back-to-top.active {
     display: none;
 }
+
+.compare-price {
+  color: #888;
+  text-decoration: line-through;
+  margin-right: 0.5em;
+}
+
+.discounted-price {
+  color: #000;
+  font-weight: bold;
+}
+
+.discount-label {
+  color: red;
+  font-size: 0.9em;
+  margin-left: 0.5em;
+}

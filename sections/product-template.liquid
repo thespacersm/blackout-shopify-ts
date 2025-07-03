@@ -155,12 +155,7 @@ addons can override it.
     {% endif %}
   });
 
-  /*placeholder prodotto*/
-  {% if product.featured_image %}
-  <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}">
-{% else %}
-  <img src="{{ 'placeholder.jpg' | asset_url }}" alt="Immagine non disponibile">
-{% endif %}
+
 </script>
   
 {% schema %}

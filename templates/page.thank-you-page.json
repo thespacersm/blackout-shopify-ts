@@ -12,7 +12,6 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        "h1 {margin: 40px 0;}",
         "h2 {display: none;}",
         "h5 {width: 80%; justify-self: center; text-transform: math-auto;}"
       ],

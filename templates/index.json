@@ -131,11 +131,11 @@
     "1651548263914ccd88": {
       "type": "section-banner-v1",
       "settings": {
-        "img_banner1": "shopify://shop_images/Snapinsta.app_381021128_18291695650133645_3916832180771765377_n_1080_2.jpg",
+        "img_banner1": "shopify://shop_images/BORSA.jpg",
         "title_banner1": "ACCESSORI",
         "btn_banner1": "SCOPRI I PRODOTTI",
         "url_banner1": "shopify://collections/accessori",
-        "img_banner2": "shopify://shop_images/Snapinsta.app_314176987_829495464837734_3358441485144491829_n_1080_1.jpg",
+        "img_banner2": "shopify://shop_images/TEXANO_1.jpg",
         "title_banner2": "SCARPE",
         "btn_banner2": "VAI AI PRODOTTI",
         "url_banner2": "shopify://collections/scarpe",
@@ -194,11 +194,11 @@
         "select_pos": "right",
         "bg_banner": "#fdf3e6",
         "subtitle_top": "NUOVE COLLEZIONI",
-        "title_banner": "Primavera Estate",
-        "sub_title_banner": "Capi freschi, tessuti comodi e tendenze di stagione. Preparati ad affrontare il caldo con stile!",
+        "title_banner": "AUTUNNO INVERNO",
+        "sub_title_banner": "Capi caldi e alla moda e tendenze di stagione. Preparati ad affrontare il freddo con stile!",
         "button_banner": "SCOPRI I PRODOTTI",
         "url_banner": "shopify://collections/all",
-        "img_banner_right": "shopify://shop_images/IMG_3167.jpg",
+        "img_banner_right": "shopify://shop_images/FW26.jpg",
         "margin_top": "",
         "margin_bottom": ""
       }

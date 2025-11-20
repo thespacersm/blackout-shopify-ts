@@ -1,9 +1,8 @@
-
+{% if settings.topbar_custom_text != blank %}
+<div class="bar-space"><p class="topbar-custom-text">{{ settings.topbar_custom_text }}</p></div>
+{% endif %}
 
 <div class="menu_moblie d-flex d-xl-none jsmenumobile align-items-center {% unless settings.enable_sticky_mobile %}engoc-disable-sticky{% endunless %}">
-    {% if settings.topbar_custom_text != blank %}
-  <div class="bar-space"><p class="topbar-custom-text">{{ settings.topbar_custom_text }}</p></div>
-  {% endif %}
   <a href="javascript:void(0)" title="" class="menuleft">
     <span class="iconmenu">
       <span></span>

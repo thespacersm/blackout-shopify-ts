@@ -1088,7 +1088,7 @@
       },
       {
         "type": "text",
-        "id": "topbar_custom_text",
+        "id": "topbar_custom_text_mobile",
         "label": "Testo personalizzato topbar",
         "default": "Testo di esempio",
         "info": "Inserisci il testo da mostrare nella barra superiore"

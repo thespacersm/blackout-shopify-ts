@@ -1040,6 +1040,13 @@
         "default": true
       },
       {
+        "type": "text",
+        "id": "topbar_custom_text_mobile",
+        "label": "Testo personalizzato topbar",
+        "default": "Testo di esempio",
+        "info": "Inserisci il testo da mostrare nella barra superiore"
+      },
+      {
         "type": "color",
         "id": "bgmenu_mobile",
         "label": "Background color menu mobile",
@@ -1085,13 +1092,6 @@
         "type": "textarea",
         "id": "logo_svgmobile",
         "label": " SVG logo"
-      },
-      {
-        "type": "text",
-        "id": "topbar_custom_text_mobile",
-        "label": "Testo personalizzato topbar",
-        "default": "Testo di esempio",
-        "info": "Inserisci il testo da mostrare nella barra superiore"
       },
       {
         "type": "range",

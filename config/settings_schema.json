@@ -481,13 +481,6 @@
       },
       {
         "type": "text",
-        "id": "topbar_custom_text",
-        "label": "Testo personalizzato topbar",
-        "default": "Testo di esempio",
-        "info": "Inserisci il testo da mostrare nella barra superiore"
-      },
-      {
-        "type": "text",
         "id": "icon_sc_tb1_1",
         "label": "Icon 1",
         "default": "fa fa-facebook",

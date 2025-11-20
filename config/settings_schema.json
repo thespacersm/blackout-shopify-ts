@@ -1087,6 +1087,13 @@
         "label": " SVG logo"
       },
       {
+        "type": "text",
+        "id": "topbar_custom_text",
+        "label": "Testo personalizzato topbar mobile",
+        "default": "Benvenuti nel nostro negozio!",
+        "info": "Inserisci il testo da mostrare nella barra superiore del menu mobile"
+      },
+      {
         "type": "range",
         "id": "mobile_logo_maxwidth",
         "min": 30,

@@ -8458,5 +8458,11 @@
       "checkout_button_color": "#1990C6",
       "checkout_error_color": "#ff6d6d"
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".bar-space p {margin: 0px;}",
+      ".bar-space {background-color: #000; color: #fff; font-weight: 600; padding: 5px 10px; text-align: center; font-size: 14px;}"
+    ]
   }
 }

@@ -73,6 +73,7 @@
     "hd_icon_cart_mb_svg": "<svg width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M7.5 7.67001V6.70001C7.5 4.45001 9.31 2.24001 11.56 2.03001C14.24 1.77001 16.5 3.88001 16.5 6.51001V7.89001\" stroke=\"#30343A\" stroke-width=\"1.5\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M9.00007 22H15.0001C19.0201 22 19.7401 20.39 19.9501 18.43L20.7001 12.43C20.9701 9.99 20.2701 8 16.0001 8H8.00007C3.73007 8 3.03007 9.99 3.30007 12.43L4.05007 18.43C4.26007 20.39 4.98007 22 9.00007 22Z\" stroke=\"#30343A\" stroke-width=\"1.5\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M15.4955 12H15.5045\" stroke=\"#30343A\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M8.49451 12H8.50349\" stroke=\"#30343A\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>",
     "logo_mobile": "shopify://shop_images/logo_black_fe0a005c-0be5-4fa7-92a6-da3bf8b55186.png",
     "logo_svgmobile": "",
+    "topbar_custom_text_mobile": "Nuovi prodotti disponibili!",
     "mobile_logo_maxwidth": 115,
     "main_menu_store_mb": "main-menu",
     "hdv_color_text": "#30343a",
@@ -3964,9 +3965,7 @@
       "header": {
         "type": "header",
         "custom_css": [
-          "#header .menu ul .nav-item.dropdown .nav-link:after {margin-right: 10px;}",
-          ".bar-space {background-color: #000; color: #fff; font-weight: 600; padding: 5px 10px; text-align: center; font-size: 14px;}",
-          ".bar-space p {margin: 0px;}"
+          "#header .menu ul .nav-item.dropdown .nav-link:after {margin-right: 10px;}"
         ],
         "settings": {
           "select_hds": "header_v1",

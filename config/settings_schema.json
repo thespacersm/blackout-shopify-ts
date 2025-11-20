@@ -1089,9 +1089,9 @@
       {
         "type": "text",
         "id": "topbar_custom_text",
-        "label": "Testo personalizzato topbar mobile",
-        "default": "Benvenuti nel nostro negozio!",
-        "info": "Inserisci il testo da mostrare nella barra superiore del menu mobile"
+        "label": "Testo personalizzato topbar",
+        "default": "Testo di esempio",
+        "info": "Inserisci il testo da mostrare nella barra superiore"
       },
       {
         "type": "range",

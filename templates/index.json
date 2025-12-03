@@ -18,7 +18,7 @@
             "select_position_content": "right",
             "select_textalign_content": "right",
             "block_title_top1": "LO SHOPPING CHE FA PER TE",
-            "color_block_title_top1": "#ffffff",
+            "color_block_title_top1": "#fdf5e8",
             "font_size_top1": 14,
             "fonts_sub_1": "Lato",
             "effect_title1": "bounce",
@@ -44,7 +44,7 @@
             "ena_slide_video": false,
             "url_ytb_video": "",
             "block_banerimage": "shopify://shop_images/blackout-slide-3_1.jpg",
-            "block_banerimage_mb": "shopify://shop_images/novita_mobile.jpg"
+            "block_banerimage_mb": "shopify://shop_images/Immagine_WhatsApp_2025-12-03_ore_12.38.15_059f3997.jpg"
           }
         },
         "slideshow_TMNULa": {

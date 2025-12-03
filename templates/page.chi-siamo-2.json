@@ -20,7 +20,7 @@
         "634ee0dd-4f24-4f30-8319-66af45451a47": {
           "type": "introduce",
           "settings": {
-            "image_intro": "shopify://shop_images/ALE_6467.jpg",
+            "image_intro": "shopify://shop_images/copertina.jpg",
             "title_intro": "#Blackout",
             "des_intro": "nasce nell'ottobre dell'anno 2016.",
             "content_intro": "<p> A partire dall'idea di due giovani ragazze, di comuni intenti, allo stesso tempo complementari a livello di gusto, che con voglia, grinta e determinazione, mettono insieme la passione per l’abbigliamento, con cura del dettaglio e attenzione al minimo particolare.<br><br>\nIl nostro obiettivo è sempre stato, e sempre sarà, la totale soddisfazione del cliente, a livello materiale, umano e personale, instaurando legami e rapporti con tutti i nostri partner di fiducia, in maniera tale da creare la miglior intima esperienza di shopping, sempre col sorriso sulla labbra.<br><br>\nDai un' occhiata al nostro negozio online, alle offerte speciali, e contattaci per qualsiasi domanda o richiesta!</p>"
@@ -35,6 +35,15 @@
       ],
       "settings": {
         "enable_intro": true
+      }
+    },
+    "custom_liquid_xwfDUt": {
+      "type": "custom-liquid",
+      "name": "custom-liquid-space",
+      "settings": {
+        "custom_liquid": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "our_teams_v3": {
@@ -156,6 +165,7 @@
   "order": [
     "banner_about_v3",
     "about_introduce_v3",
+    "custom_liquid_xwfDUt",
     "our_teams_v3",
     "rich_text_v3",
     "about_servicebox_v3",

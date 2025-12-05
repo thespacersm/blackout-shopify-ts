@@ -318,6 +318,20 @@
             "url_image": ""
           }
         },
+        "logo_6fXcdV": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/d_l.png",
+            "url_image": ""
+          }
+        },
+        "logo_ddRRcU": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/la_petite_etoile.png",
+            "url_image": ""
+          }
+        },
         "logo_FxBfRL": {
           "type": "logo",
           "settings": {
@@ -371,6 +385,8 @@
       "block_order": [
         "logo_8HfHKi",
         "logo_wMTypK",
+        "logo_6fXcdV",
+        "logo_ddRRcU",
         "logo_FxBfRL",
         "logo_WdxkQM",
         "logo_mVaVBT",

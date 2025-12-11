@@ -63,7 +63,7 @@
             "fonts_title_top": "Lato",
             "effect_title": "bounce",
             "block_title_top2": "",
-            "color_block_title_top2": "#6d7178",
+            "color_block_title_top2": "#fdf5e8",
             "font_size_top2": 16,
             "fonts_sub_2": "",
             "effect_title2": "bounce",
@@ -78,7 +78,7 @@
             "effect_title3": "bounce",
             "ena_slide_video": false,
             "url_ytb_video": "",
-            "block_banerimage": "shopify://shop_images/blackout-slide-2_1.jpg",
+            "block_banerimage": "shopify://shop_images/kontatto_2.jpg",
             "block_banerimage_mb": "shopify://shop_images/kontatto.png"
           }
         },

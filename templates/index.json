@@ -43,41 +43,8 @@
             "effect_title3": "bounce",
             "ena_slide_video": false,
             "url_ytb_video": "",
-            "block_banerimage": "shopify://shop_images/blackout-slide-3_1.jpg",
+            "block_banerimage": "shopify://shop_images/kontatto_4.jpg",
             "block_banerimage_mb": "shopify://shop_images/Immagine_WhatsApp_2025-12-03_ore_12.43.46_3859ea30.jpg"
-          }
-        },
-        "slideshow_gbnXtr": {
-          "type": "slideshow",
-          "settings": {
-            "select_position_content": "left",
-            "select_textalign_content": "left",
-            "block_title_top1": "",
-            "color_block_title_top1": "#000000",
-            "font_size_top1": 14,
-            "fonts_sub_1": "",
-            "effect_title1": "bounce",
-            "block_title_top": "Natural food for  your health.",
-            "color_block_title_top": "#30343a",
-            "font_size_title_top": 60,
-            "fonts_title_top": "Lato",
-            "effect_title": "bounce",
-            "block_title_top2": "Packed in a facility that handles tree nuts and sesame seeds.",
-            "color_block_title_top2": "#6d7178",
-            "font_size_top2": 16,
-            "fonts_sub_2": "",
-            "effect_title2": "bounce",
-            "block_buton": "Shop now",
-            "bg_button": "#cea384",
-            "color_block_button": "#ffffff",
-            "font_size_button": 13,
-            "fonts_button": "",
-            "color_hover_button": "#2e610d",
-            "color_hover_text": "#ffffff",
-            "block_url": "shopify://collections/all",
-            "effect_title3": "bounce",
-            "ena_slide_video": false,
-            "url_ytb_video": ""
           }
         },
         "slideshow_TMNULa": {
@@ -146,14 +113,13 @@
             "effect_title3": "bounce",
             "ena_slide_video": false,
             "url_ytb_video": "",
-            "block_banerimage": "shopify://shop_images/006e907e69eb102fdd48e7fc808ead52_-_dimensioni_grandi.jpg",
+            "block_banerimage": "shopify://shop_images/kontatto_5.jpg",
             "block_banerimage_mb": "shopify://shop_images/Immagine_2025-11-28_192121.png"
           }
         }
       },
       "block_order": [
         "slideshow_J8FF6Y",
-        "slideshow_gbnXtr",
         "slideshow_TMNULa",
         "6a7425c9-48c8-4652-a863-ae568487b3c9"
       ],

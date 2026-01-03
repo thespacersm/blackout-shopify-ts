@@ -3970,7 +3970,7 @@
         "settings": {
           "select_hds": "header_v1",
           "hd_home_color_text": "#ffffff",
-          "topbar_custom_text": "NUOVI ARRIVI !!!",
+          "topbar_custom_text": "SALDI !!!        -20%",
           "hd_home_enable_transparents": true,
           "hd_home_bg_header_normal": "#ffffff",
           "hd_bg_header_opacity": 1,

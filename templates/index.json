@@ -304,6 +304,19 @@
     "logos_list_kBcUXh": {
       "type": "logos-list",
       "blocks": {
+        "logo_g4CLUx": {
+          "type": "logo",
+          "settings": {
+            "url_image": ""
+          }
+        },
+        "logo_eWGTGp": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/namaste.png",
+            "url_image": ""
+          }
+        },
         "logo_8HfHKi": {
           "type": "logo",
           "settings": {
@@ -383,6 +396,8 @@
         }
       },
       "block_order": [
+        "logo_g4CLUx",
+        "logo_eWGTGp",
         "logo_8HfHKi",
         "logo_wMTypK",
         "logo_6fXcdV",

@@ -49,6 +49,7 @@
         },
         "slideshow_TMNULa": {
           "type": "slideshow",
+          "disabled": true,
           "settings": {
             "select_position_content": "center",
             "select_textalign_content": "center",

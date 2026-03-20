@@ -15,10 +15,10 @@
         "slideshow_J8FF6Y": {
           "type": "slideshow",
           "settings": {
-            "select_position_content": "right",
-            "select_textalign_content": "right",
+            "select_position_content": "center",
+            "select_textalign_content": "center",
             "block_title_top1": "LO SHOPPING CHE FA PER TE",
-            "color_block_title_top1": "#fdf5e8",
+            "color_block_title_top1": "#ffffff",
             "font_size_top1": 14,
             "fonts_sub_1": "Lato",
             "effect_title1": "bounce",
@@ -43,7 +43,7 @@
             "effect_title3": "bounce",
             "ena_slide_video": false,
             "url_ytb_video": "",
-            "block_banerimage": "shopify://shop_images/kontatto_4.jpg",
+            "block_banerimage": "shopify://shop_images/Banner_home.jpg",
             "block_banerimage_mb": "shopify://shop_images/PP_427b91af-53e8-4991-9cf5-d95287f19dde.jpg"
           }
         },

@@ -326,6 +326,13 @@
             "url_image": ""
           }
         },
+        "logo_Jenza7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/true_decadence.jpg",
+            "url_image": ""
+          }
+        },
         "logo_6fXcdV": {
           "type": "logo",
           "settings": {
@@ -394,6 +401,7 @@
         "logo_eWGTGp",
         "logo_8HfHKi",
         "logo_wMTypK",
+        "logo_Jenza7",
         "logo_6fXcdV",
         "logo_ddRRcU",
         "logo_FxBfRL",

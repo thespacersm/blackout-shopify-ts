@@ -473,6 +473,7 @@
       "block_order": [
         "slideshow_7ffkcz"
       ],
+      "disabled": true,
       "name": "SLIDESHOW",
       "settings": {
         "margin_top": "",

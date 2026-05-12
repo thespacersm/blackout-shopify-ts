@@ -3969,7 +3969,7 @@
         ],
         "settings": {
           "select_hds": "header_v1",
-          "hd_home_color_text": "#000000",
+          "hd_home_color_text": "#cea384",
           "topbar_custom_text": "NUOVI ARRIVI",
           "hd_home_enable_transparents": true,
           "hd_home_bg_header_normal": "#ffffff",

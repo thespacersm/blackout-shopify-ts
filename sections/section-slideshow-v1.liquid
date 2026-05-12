@@ -147,8 +147,10 @@
         {% endif %}
     }
     .over_slidevid { background: transparent !important; } /* Studio99 CSS */
-  
-  
+
+  @media (max-width:420px) {
+    .video-wrapper iframe { height: 220px !important; }
+  }
   
   @media(min-width:1900px){
     .section-slideshow-v1 .slick-active .info-sideh1 .box-info-{{block.id}} .box-title-{{block.id}} .titlebig{   

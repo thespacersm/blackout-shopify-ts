@@ -42,7 +42,7 @@
             "block_url": "shopify://collections/all",
             "effect_title3": "bounce",
             "ena_slide_video": true,
-            "url_ytb_video": "<iframe width=\"100%\" height=\"600\" src=\"https://www.youtube.com/embed/--IPJ1nvcMI?autoplay=1&mute=1&controls=0&playsinline=1&loop=1&playlist=--IPJ1nvcMI&vq=hd1080\" title=\"YouTube video player\" frameborder=\"0\" allow=\"autoplay; encrypted-media; picture-in-picture\" allowfullscreen>\n</iframe>"
+            "url_ytb_video": "<video autoplay muted loop playsinline class=\"hero-video\">\n    <source src=\"https://cdn.shopify.com/videos/c/o/v/50d0aff10c0d42fa98a23d05df63cab3.mp4\" type=\"video/mp4\">\n  </source></video>"
           }
         }
       },

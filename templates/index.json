@@ -55,6 +55,31 @@
         "margin_bottom": ""
       }
     },
+    "1778690043b7e2b480": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_26d465a_ywrRQi": {
+          "type": "ai_gen_block_26d465a",
+          "settings": {
+            "heading_text": "PROMO - 30 %",
+            "heading_tag": "h2",
+            "font_size": 48,
+            "font_weight": "700",
+            "text_align": "center",
+            "text_color": "#ffffff",
+            "glow_color": "#a75b23",
+            "glow_intensity": 20,
+            "desktop_width_percent": 100,
+            "padding": 40
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_26d465a_ywrRQi"
+      ],
+      "settings": {}
+    },
     "section_slideshow_v1": {
       "type": "section-slideshow-v1",
       "blocks": {
@@ -173,6 +198,29 @@
       "disabled": true,
       "settings": {
         "margin_top": "NUOVI ARRIVI",
+        "margin_bottom": ""
+      }
+    },
+    "section_banner_v3_a3AprR": {
+      "type": "section-banner-v3",
+      "name": "BANNER V3",
+      "settings": {
+        "sub_title": "Primavera 2026",
+        "section_title": "Articoli in promozione -30 %",
+        "desc_content": "DIRETTAMENTE NEL CARRELLO GLI ARTICOLI VERRANNO SCONTATI",
+        "title_banner1": "Fresh Organic Vegetable",
+        "sub_title1": "Not only a great theme, but the customer  support is absolutely excellent.",
+        "button_banner1": "Learn More",
+        "url_button_banner1": "shopify://collections/all",
+        "title_banner2": "Fast & Easy Grocery Delivery",
+        "sub_title2": "Support is helping to fix my issues now from  my previous statement.",
+        "button_banner2": "Learn More",
+        "url_button_banner2": "shopify://collections/all",
+        "title_banner3": "Fresh Organic Vegetable",
+        "sub_title3": "Best customer services and with quality design  like this? You guys are the best.",
+        "button_banner3": "Learn More",
+        "url_button_banner3": "shopify://collections/all",
+        "margin_top": "",
         "margin_bottom": ""
       }
     },
@@ -483,7 +531,9 @@
   },
   "order": [
     "section_slideshow_v1_HJrL8d",
+    "1778690043b7e2b480",
     "section_slideshow_v1",
+    "section_banner_v3_a3AprR",
     "1651548263914ccd88",
     "1651548283ff8c0617",
     "165154832004f12aec",

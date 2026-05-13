@@ -1,6 +1,231 @@
+{% doc %}
+  @prompt
+    Un'intestazione con un effetto luminoso animato
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-glow-heading-{{ ai_gen_id }} {
+    display: block;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    padding: {{ block.settings.padding }}px;
+    text-align: {{ block.settings.text_alignment }};
+  }
+
+  .ai-glow-heading__text-{{ ai_gen_id }} {
+    font-size: {{ block.settings.font_size }}px;
+    font-weight: {{ block.settings.font_weight }};
+    color: {{ block.settings.text_color }};
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    text-shadow: 
+      0 0 {{ block.settings.glow_intensity }}px {{ block.settings.glow_color }},
+      0 0 {{ block.settings.glow_intensity | times: 2 }}px {{ block.settings.glow_color }},
+      0 0 {{ block.settings.glow_intensity | times: 3 }}px {{ block.settings.glow_color }};
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-glow-heading__text-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.font_size }}px * 0.7);
+    }
+  }
+{% endstyle %}
+
+<ai-glow-heading-{{ ai_gen_id }}
+  class="ai-glow-heading-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  <h2 class="ai-glow-heading__text-{{ ai_gen_id }}">
+    {{ block.settings.heading_text }}
+  </h2>
+</ai-glow-heading-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class AiGlowHeading{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        const heading = this.querySelector('.ai-glow-heading__text-{{ ai_gen_id }}');
+        if (!heading) return;
+
+        const glowIntensity = {{ block.settings.glow_intensity }};
+        const glowColor = '{{ block.settings.glow_color }}';
+        const animationSpeed = {{ block.settings.animation_speed }};
+
+        let intensity = glowIntensity;
+        let increasing = true;
+
+        const animate = () => {
+          if (increasing) {
+            intensity += 0.5;
+            if (intensity >= glowIntensity * 1.5) {
+              increasing = false;
+            }
+          } else {
+            intensity -= 0.5;
+            if (intensity <= glowIntensity * 0.5) {
+              increasing = true;
+            }
+          }
+
+          heading.style.textShadow = `
+            0 0 ${intensity}px ${glowColor},
+            0 0 ${intensity * 2}px ${glowColor},
+            0 0 ${intensity * 3}px ${glowColor}
+          `;
+
+          setTimeout(() => {
+            requestAnimationFrame(animate);
+          }, animationSpeed);
+        };
+
+        animate();
+      }
+    }
+
+    customElements.define('ai-glow-heading-{{ ai_gen_id }}', AiGlowHeading{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Intestazione luminosa",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Contenuto"
+    },
+    {
+      "type": "text",
+      "id": "heading_text",
+      "label": "Testo intestazione",
+      "default": "Benvenuti nel nostro negozio"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Allineamento",
+      "options": [
+        {
+          "value": "left",
+          "label": "Sinistra"
+        },
+        {
+          "value": "center",
+          "label": "Centro"
+        },
+        {
+          "value": "right",
+          "label": "Destra"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "header",
+      "content": "Stile"
+    },
+    {
+      "type": "range",
+      "id": "font_size",
+      "label": "Dimensione carattere",
+      "min": 20,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "default": 48
+    },
+    {
+      "type": "select",
+      "id": "font_weight",
+      "label": "Spessore carattere",
+      "options": [
+        {
+          "value": "400",
+          "label": "Normale"
+        },
+        {
+          "value": "600",
+          "label": "Semi grassetto"
+        },
+        {
+          "value": "700",
+          "label": "Grassetto"
+        },
+        {
+          "value": "900",
+          "label": "Extra grassetto"
+        }
+      ],
+      "default": "700"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Colore testo",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "padding",
+      "label": "Spaziatura",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Larghezza desktop",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "header",
+      "content": "Effetto luminoso"
+    },
+    {
+      "type": "color",
+      "id": "glow_color",
+      "label": "Colore bagliore",
+      "default": "#FF871D"
+    },
+    {
+      "type": "range",
+      "id": "glow_intensity",
+      "label": "Intensità bagliore",
+      "min": 5,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "animation_speed",
+      "label": "Velocità animazione",
+      "min": 10,
+      "max": 100,
+      "step": 10,
+      "unit": "ms",
+      "default": 50
+    }
+  ],
+  "presets": [
+    {
+      "name": "Intestazione luminosa"
+    }
+  ]
+}
 {% endschema %}

@@ -90,17 +90,17 @@
             "select_position_content": "center",
             "select_textalign_content": "center",
             "block_title_top1": "",
-            "color_block_title_top1": "#000",
+            "color_block_title_top1": "#fff",
             "font_size_top1": 14,
             "fonts_sub_1": "",
             "effect_title1": "bounce",
             "block_title_top": "Sconti al -30%",
-            "color_block_title_top": "#30343a",
+            "color_block_title_top": "#fff",
             "font_size_title_top": 60,
             "fonts_title_top": "Lato",
             "effect_title": "bounce",
             "block_title_top2": "Primavera 2026",
-            "color_block_title_top2": "#4d822b",
+            "color_block_title_top2": "#fff",
             "font_size_top2": 21,
             "fonts_sub_2": "",
             "effect_title2": "bounce",
@@ -115,8 +115,8 @@
             "effect_title3": "bounce",
             "ena_slide_video": false,
             "url_ytb_video": "",
-            "block_banerimage": "shopify://shop_images/sfondo_saldi.jpg",
-            "block_banerimage_mb": "shopify://shop_images/sfondo_mobile.jpg"
+            "block_banerimage": "shopify://shop_images/WhatsApp_Image_2026-05-15_at_16.16.35.jpg",
+            "block_banerimage_mb": "shopify://shop_images/WhatsApp_Image_2026-05-15_at_16.16.35.jpg"
           }
         }
       },

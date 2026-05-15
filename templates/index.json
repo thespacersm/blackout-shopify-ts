@@ -81,6 +81,54 @@
       ],
       "settings": {}
     },
+    "section_slideshow_v1_LtkHJT": {
+      "type": "section-slideshow-v1",
+      "blocks": {
+        "slideshow_LxLzVy": {
+          "type": "slideshow",
+          "settings": {
+            "select_position_content": "center",
+            "select_textalign_content": "center",
+            "block_title_top1": "",
+            "color_block_title_top1": "#000",
+            "font_size_top1": 14,
+            "fonts_sub_1": "",
+            "effect_title1": "bounce",
+            "block_title_top": "Sconti al -30%",
+            "color_block_title_top": "#30343A",
+            "font_size_title_top": 60,
+            "fonts_title_top": "Lato",
+            "effect_title": "bounce",
+            "block_title_top2": "Primavera 2026",
+            "color_block_title_top2": "#4D822B",
+            "font_size_top2": 21,
+            "fonts_sub_2": "",
+            "effect_title2": "bounce",
+            "block_buton": "Scopri ora",
+            "bg_button": "#cea384",
+            "color_block_button": "#fff",
+            "font_size_button": 13,
+            "fonts_button": "",
+            "color_hover_button": "#2E610D",
+            "color_hover_text": "#fff",
+            "block_url": "",
+            "effect_title3": "bounce",
+            "ena_slide_video": false,
+            "url_ytb_video": "",
+            "block_banerimage": "shopify://shop_images/sfondo_saldi.jpg",
+            "block_banerimage_mb": "shopify://shop_images/sfondo_mobile.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "slideshow_LxLzVy"
+      ],
+      "name": "SLIDESHOW",
+      "settings": {
+        "margin_top": "",
+        "margin_bottom": ""
+      }
+    },
     "section_slideshow_v1": {
       "type": "section-slideshow-v1",
       "blocks": {
@@ -529,59 +577,12 @@
         "margin_top": "",
         "margin_bottom": ""
       }
-    },
-    "section_slideshow_v1_LtkHJT": {
-      "type": "section-slideshow-v1",
-      "blocks": {
-        "slideshow_LxLzVy": {
-          "type": "slideshow",
-          "settings": {
-            "select_position_content": "center",
-            "select_textalign_content": "center",
-            "block_title_top1": "",
-            "color_block_title_top1": "#000",
-            "font_size_top1": 14,
-            "fonts_sub_1": "",
-            "effect_title1": "bounce",
-            "block_title_top": "Sconti al -30%",
-            "color_block_title_top": "#30343A",
-            "font_size_title_top": 60,
-            "fonts_title_top": "Lato",
-            "effect_title": "bounce",
-            "block_title_top2": "Primavera 2026",
-            "color_block_title_top2": "#4D822B",
-            "font_size_top2": 21,
-            "fonts_sub_2": "",
-            "effect_title2": "bounce",
-            "block_buton": "Scopri ora",
-            "bg_button": "#cea384",
-            "color_block_button": "#fff",
-            "font_size_button": 13,
-            "fonts_button": "",
-            "color_hover_button": "#2E610D",
-            "color_hover_text": "#fff",
-            "block_url": "",
-            "effect_title3": "bounce",
-            "ena_slide_video": false,
-            "url_ytb_video": "",
-            "block_banerimage": "shopify://shop_images/sfondo_saldi.jpg",
-            "block_banerimage_mb": "shopify://shop_images/sfondo_mobile.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "slideshow_LxLzVy"
-      ],
-      "name": "SLIDESHOW",
-      "settings": {
-        "margin_top": "",
-        "margin_bottom": ""
-      }
     }
   },
   "order": [
     "section_slideshow_v1_HJrL8d",
     "1778690043b7e2b480",
+    "section_slideshow_v1_LtkHJT",
     "section_slideshow_v1",
     "section_banner_v3_a3AprR",
     "1651548263914ccd88",
@@ -591,7 +592,6 @@
     "1651548402b12207a3",
     "section_product_v1_DjVNWd",
     "logos_list_kBcUXh",
-    "section_newsletter_v1_MqDPcm",
-    "section_slideshow_v1_LtkHJT"
+    "section_newsletter_v1_MqDPcm"
   ]
 }

@@ -368,6 +368,15 @@
     "1651548402b12207a3": {
       "type": "section-testimonial-v2",
       "blocks": {
+        "testimonial_frpcnb": {
+          "type": "testimonial",
+          "settings": {
+            "block_title": "“Professionalità al top e servizio clienti impeccabile!”",
+            "block_content": "Comprare costumi online è sempre un rischio per via delle taglie, ma questo negozio si è dimostrato di una professionalità rara. Il costume è di ottima qualità. Un'esperienza d'acquisto eccellente, comprerò sicuramente di nuovo da loro!",
+            "block_img": "shopify://shop_images/A_a1334adf-1b41-4284-922d-5185500df068.jpg",
+            "block_name": "Antonio Cammino"
+          }
+        },
         "1651548402c9f7016f-0": {
           "type": "testimonial",
           "settings": {
@@ -415,6 +424,7 @@
         }
       },
       "block_order": [
+        "testimonial_frpcnb",
         "1651548402c9f7016f-0",
         "1651548402c9f7016f-1",
         "testimonial_cGfze7",

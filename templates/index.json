@@ -42,7 +42,7 @@
             "block_url": "shopify://collections/all",
             "effect_title3": "bounce",
             "ena_slide_video": true,
-            "url_ytb_video": "<video autoplay muted loop playsinline class=\"hero-video\" style=\"width: 100%; height: auto;\">\n    <source src=\"https://cdn.shopify.com/videos/c/o/v/70c20ee862254206bbc1f342dfef9f7a.mp4\">\n  </source></video>"
+            "url_ytb_video": "<video autoplay muted loop playsinline class=\"hero-video\" style=\"width: 100%; height: auto;\">\n    <source src=\"https://cdn.shopify.com/videos/c/o/v/a0d85f2ad733455aa17428d7252c2fbf.mp4\">\n  </source></video>"
           }
         }
       },
@@ -338,7 +338,7 @@
       "settings": {
         "ena_container": true,
         "select_pos": "right",
-        "bg_banner": "#C49962",
+        "bg_banner": "#c49962",
         "subtitle_top": "NUOVE COLLEZIONI",
         "title_banner": "FALL WINTER 26/27",
         "sub_title_banner": "Le tendenze della moda Autunno Inverno 26/27 oscillano tra silhouette aderenti e volumi cocoon. Il camoscio dominante per scarpe, borse e capispalla. La pelle all-over utilizzato per look completi e grintosi. Denim rinnovato super presente. Colori neutri caldi: il marrone e il color cioccolato sostituiscono il nero come base del guardaroba. Toni naturali e profondi: Ciliegia nera, bordeaux, verde oliva, verde bosco  blu notte e grigio.",

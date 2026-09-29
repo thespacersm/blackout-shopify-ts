@@ -41,8 +41,10 @@
             "color_hover_text": "rgba(0,0,0,0)",
             "block_url": "shopify://collections/all",
             "effect_title3": "bounce",
-            "ena_slide_video": true,
-            "url_ytb_video": "<video autoplay muted loop playsinline class=\"hero-video\" style=\"width: 100%; height: auto;\">\n    <source src=\"https://cdn.shopify.com/videos/c/o/v/a0d85f2ad733455aa17428d7252c2fbf.mp4\">\n  </source></video>"
+            "ena_slide_video": false,
+            "url_ytb_video": "",
+            "block_banerimage": "shopify://shop_images/cover_blackout.jpg",
+            "block_banerimage_mb": "shopify://shop_images/cover_blackout.jpg"
           }
         }
       },

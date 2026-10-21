@@ -71,7 +71,7 @@
         "show_cate": true,
         "ena_sticky_addcart": false,
         "style_stickyaddcart": "bottom",
-        "ena_zoom": true,
+        "ena_zoom": false,
         "ena_featured_icon": true,
         "display_feaicon": "dis_svg"
       }
